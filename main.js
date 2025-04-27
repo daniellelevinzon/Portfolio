@@ -8,9 +8,9 @@ document.addEventListener("mousemove",e=>{
     let PosMousePourcentageY=Math.round(mousePosY*100/height)
     let PosMousePourcentageX=Math.round(mousePosX*100/width)
     //puis ensuite un pourcentage sur 5 car j'ai rajouter 5% a la taille de l'image de fond
-    let PosBackgroundY = Math.round(PosMousePourcentageY*5/100)
-    let PosBackgroundX = Math.round(PosMousePourcentageX*5/100)
-    document.body.style.backgroundPosition =`${PosBackgroundX}% ${PosBackgroundY}% `
+    let PosBackgroundY = Math.round((PosMousePourcentageY*5/100))
+    let PosBackgroundX = Math.round((PosMousePourcentageX*5/100))
+    document.body.style.backgroundPosition =`${-PosBackgroundX+5}% ${-PosBackgroundY+5}% `
     document.getElementById("items").style.marginLeft=`${PosBackgroundX*7}px`
     document.getElementById("items").style.marginTop=`${PosBackgroundY*7+50}px`
 })

@@ -51,13 +51,14 @@
     background-image: url("image/other/background_homepage.svg");
     background-size: 105%;
     background-repeat: no-repeat;
-    background-position: 10% 10%;
+    background-position: 5% 5%;
     transition: all 0.5s ease;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-    overflow-x: hidden;
+    overflow: hidden;
+    background-size: cover;
 }
 
 header {
@@ -97,18 +98,19 @@ header ul {
     height: 300px;
     background-repeat: no-repeat;
     transition: all 0.5s ease;
-    background-size: cover;
+    background-size: contain;
 }
 
 #homePage #head:hover {
     background-image: url(image/other/persona_hovering.svg);
     transition: all 0.5s ease;
+    bottom: -10px;
 
 }
 
 #homePage aside {
     position: absolute;
-    right: 0;
+    right: 10%;
     bottom: 10%;
     width: 30%;
 }
