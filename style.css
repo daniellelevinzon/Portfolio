@@ -127,21 +127,18 @@ header ul {
     transition: all 0.5s ease-in-out;
 }
 
+#homePage .item img {
+    transition: all 0.3s ease-in-out;
+}
+
 #homePage #pinceau {
-    background-image: url('image/other/pinceau.svg');
     align-self: center;
+    background-repeat: no-repeat;
 }
 
-#homePage #chat {
-    background-image: url('image/other/chat.svg');
-}
 
-#homePage #collier {
-    background-image: url('image/other/collier.svg');
-}
 
 #homePage #barrette {
-    background-image: url('image/other/barrette.svg');
     align-self: self-end;
 }
 
