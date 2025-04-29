@@ -9,6 +9,21 @@
     font-style: normal;
 }
 
+footer {
+
+    background-image: url("/image/other/footer.svg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    margin-top: 50px;
+}
+
+
+
+/*____________utiliser sur la plupart des pages*/
+
 #homePage h1 {
     color: #202246;
     font-family: "botak";
@@ -18,20 +33,20 @@
     line-height: normal;
 }
 
-#homePage #explain{
+#homePage #explain {
     width: 40vw;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    
+
 }
 
-#homePage #explain img{
+#homePage #explain img {
     margin-left: -200px;
 
 }
 
-#homePage #explain p{
+#homePage #explain p {
     font-size: 16pt;
     color: rgba(229, 58, 94, 1);
     margin-left: 50px;
@@ -142,3 +157,108 @@ header ul {
     align-self: self-end;
 }
 
+/*_______________________page about me_______________*/
+
+#about_me {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(254, 240, 225, 1);
+    background-image: url(image/other/chibi.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#about_me #content {
+
+
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#about_me #content #explain {
+    margin-top: 10vh;
+    width: 30vw;
+    height: 100%;
+}
+
+#about_me #content #capacity {
+    margin-top: 5vh;
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#about_me #content #explain h1 {
+    color: rgba(32, 34, 70, 1);
+    font-family: "botak";
+    font-size: 40px;
+    margin-top: 0;
+}
+
+#about_me #content #explain p {
+    color: rgba(32, 34, 70, 1);
+    font-family: "Amiko";
+    font-size: 16px;
+    width: 70%;
+
+}
+
+#about_me #content #explain p span {
+    color: rgba(32, 34, 70, 1);
+    font-family: "botak";
+    font-size: 16px;
+}
+
+#about_me #content #capacity #fleche {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+}
+
+#about_me #content #capacity #fleche #study {
+    margin-top: 40px;
+}
+
+#about_me #content #capacity #fleche #language {
+    margin-top: 130px;
+}
+
+#about_me #content #capacity #fleche #comp {
+    margin-top: 140px;
+}
+
+#about_me #content #capacity #context {
+    width: 80%;
+    height: 100%;
+}
+
+#about_me #content #capacity #context h3 {
+    font-family: "botak";
+    font-size: 32px;
+}
+
+#about_me #content #capacity #context p {
+    color: rgba(32, 34, 70, 1);
+    font-family: "Amiko";
+    font-size: 16px;
+    line-height: 2;
+}
+
+#about_me #content #capacity #context #icon {
+    height: 10%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
