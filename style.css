@@ -53,23 +53,23 @@ footer .Mention{
 
 }
 
-#gototop{
+footer #gototop{
     justify-self: end;
     align-self: flex-end;
     margin-top: 50px;
 }
 
-#resaux{
+footer #resaux{
     display: flex;
     justify-content: center;
     gap: 20px
 }
 
-#resaux img{
+footer #resaux img{
     height: 50px;
 }
 
-#Mention{
+footer #Mention{
 
     display: flex;
     flex-direction: row;
@@ -79,7 +79,7 @@ footer .Mention{
     text-align: end;
 }
 
-#logo{
+footer #logo{
     height: 80%;
     width: 40%;
     display: flex;
@@ -88,12 +88,12 @@ footer .Mention{
     align-items: center;
 }
 
-#logo img{
+footer #logo img{
     height: 150px;
     margin-right: 20px;
 }
 
-#option_nav{
+footer #option_nav{
     height: 80%;
     width: 40%;
     display: flex;
@@ -111,7 +111,7 @@ footer nav ul{
 
 }
 
-#option_nav nav{
+footer #option_nav nav{
     margin-top: 40px;
     display: flex;
     flex-direction: column;
@@ -366,4 +366,81 @@ header ul {
     width: 60%;
     display: flex;
     justify-content: space-around;
+}
+
+
+/*______________ page contact___________________*/
+
+
+#contact{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(254, 240, 225, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#contact #content{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-bottom: 100px;
+}
+
+#contact #content #contacter{
+    width: 40%;
+    height: 80%;
+}
+
+#contact #content article{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+#contact #content #contacter h2{
+    font-family: "botak";
+    font-size: 40pt;
+    font-weight: 500;
+    width: 750px;
+}
+
+#contact #content #contacter p{
+    font-family: "Amiko";
+    font-size: 16pt;
+    font-weight: 500;
+    width: 750px;
+}
+
+#contact #content #contacter #liaison{
+    padding: 100px;
+    border-radius: 34px;
+    background-color: #7ec7b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contact #content #contacter #liaison p{
+    width: auto;
+    height: auto;
+    color: rgba(238, 111, 125, 1);
+    font-family: "botak";
+    font-size: 24pt;
+}
+
+#contact #content #contacter #liaison p span{
+    width: auto;
+    height: auto;
+    font-size: 32pt;
+    color: rgba(32, 34, 70, 1);
 }
