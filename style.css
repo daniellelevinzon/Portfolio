@@ -10,7 +10,6 @@
 }
 
 footer {
-
     background-image: url("/image/other/footer.svg");
     height: 400px;
     width: 100%;
@@ -18,11 +17,117 @@ footer {
     background-size: cover;
     margin: 0;
     margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    color: white;
+}
+
+footer h3{
+    font-size: 32pt;
+    font-family: "botak";
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+footer p{
+    font-family: "Amiko";
+}
+
+footer #textuel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+footer #credit{
+    align-self: flex-end;
+}
+
+footer .Mention{
+    align-self: flex-end;
+    justify-self: end;
+    margin: 0;
+
+}
+
+#gototop{
+    justify-self: end;
+    align-self: flex-end;
+    margin-top: 50px;
+}
+
+#resaux{
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+#resaux img{
+    height: 50px;
+}
+
+#Mention{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: space-between;
+    text-align: end;
+}
+
+#logo{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img{
+    height: 150px;
+    margin-right: 20px;
+}
+
+#option_nav{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    height: 100%;
+    padding: 0;
+    font-family: "Amiko";
+
+}
+
+#option_nav nav{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80%;
+}
+
+footer #option_nav nav h4{
+    font-size: 16pt;
+    font-family: "botak";
+    font-weight: 300;
 }
 
 
 
-/*____________utiliser sur la plupart des pages*/
+/*____________utiliser sur la plupart des pages__________________*/
 
 #homePage h1 {
     color: #202246;
