@@ -99,7 +99,7 @@ header ul {
     justify-self: center;
     height: 40vh;
     width: 70vw;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease-in;
     display: flex;
     justify-content: space-between;
 }
@@ -132,18 +132,18 @@ header ul {
 
 #homePage .item:hover {
     transform: scale(1.2);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease;
 }
 
 #homePage .item {
     height: 150px;
     width: 150px;
     background-size: cover;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-out;
 }
 
 #homePage .item img {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease;
 }
 
 #homePage #pinceau {

@@ -15,12 +15,12 @@ document.addEventListener("mousemove", e => {
     document.getElementById("img_pinceau").style.marginTop = `${PosBackgroundY * 10}px`
 
     document.getElementById("img_barrette").style.marginLeft = `${PosBackgroundX * 10}px`
-    document.getElementById("img_barrette").style.marginTop = `${PosBackgroundY * 10}px`
+    document.getElementById("img_barrette").style.marginTop = `${PosBackgroundY * 2- 50}px`
 
     document.getElementById("chat").style.marginLeft = `${PosBackgroundX * 30}px`
     document.getElementById("chat").style.marginTop = `${PosBackgroundY * 30}px`
 
-        document.getElementById("collier").style.marginLeft = `${PosBackgroundX * 30}px`
+    document.getElementById("collier").style.marginLeft = `${PosBackgroundX * 30}px`
     document.getElementById("collier").style.marginTop = `${PosBackgroundY * 30}px`
 
     document.getElementById("items").style.marginLeft = `${PosBackgroundX * 7}px`
