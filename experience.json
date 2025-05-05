@@ -152,7 +152,7 @@
         "competence": ["UI/UX Design","Charte graphique"],
         "complement": "image/src_slugPage/complement/complement_gutemberg.svg",
         "presentation": "image/src_slugPage/presentation/pres_Gutemberg.svg",
-        "card": "image/cards/card_Gutemberg.svg",
+        "card": "image/cards/card_Gutenberg.svg",
         "tag": ["all","graphisme","UI_design"]
     },
     {
@@ -296,7 +296,7 @@
         "competence": ["Créer de l'interaction","Animation","Conception de personnage","Illustration"],
         "complement": "image/src_slugPage/complement/complement_proj_fin_d'annee.svg",
         "presentation": "image/src_slugPage/presentation/pres_proj_fin_d'annee.svg",
-        "card": "image/cards/card_projet_fin_d'annee.svg",
+        "card": "image/cards/card_projet_fin_annee.svg",
         "tag": ["all","Motion_design/Animation","illustration"]
     }
 ]

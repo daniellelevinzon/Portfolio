@@ -24,52 +24,52 @@ footer {
     color: white;
 }
 
-footer h3{
+footer h3 {
     font-size: 32pt;
     font-family: "botak";
     margin-bottom: 0px;
     font-weight: 400;
 }
 
-footer p{
+footer p {
     font-family: "Amiko";
 }
 
-footer #textuel{
+footer #textuel {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
 
-footer #credit{
+footer #credit {
     align-self: flex-end;
 }
 
-footer .Mention{
+footer .Mention {
     align-self: flex-end;
     justify-self: end;
     margin: 0;
 
 }
 
-footer #gototop{
+footer #gototop {
     justify-self: end;
     align-self: flex-end;
     margin-top: 50px;
 }
 
-footer #resaux{
+footer #resaux {
     display: flex;
     justify-content: center;
     gap: 20px
 }
 
-footer #resaux img{
+footer #resaux img {
     height: 50px;
 }
 
-footer #Mention{
+footer #Mention {
 
     display: flex;
     flex-direction: row;
@@ -79,28 +79,29 @@ footer #Mention{
     text-align: end;
 }
 
-footer #logo{
+footer #logo {
     height: 80%;
     width: 40%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    max-width: 700px;
 }
 
-footer #logo img{
+footer #logo img {
     height: 150px;
     margin-right: 20px;
 }
 
-footer #option_nav{
+footer #option_nav {
     height: 80%;
     width: 40%;
     display: flex;
     justify-content: space-around;
 }
 
-footer nav ul{
+footer nav ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -111,7 +112,7 @@ footer nav ul{
 
 }
 
-footer #option_nav nav{
+footer #option_nav nav {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
@@ -119,7 +120,7 @@ footer #option_nav nav{
     height: 80%;
 }
 
-footer #option_nav nav h4{
+footer #option_nav nav h4 {
     font-size: 16pt;
     font-family: "botak";
     font-weight: 300;
@@ -372,7 +373,7 @@ header ul {
 /*______________ page contact___________________*/
 
 
-#contact{
+#contact {
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -383,22 +384,22 @@ header ul {
     overflow-x: hidden;
 }
 
-#contact #content{
+#contact #content {
     width: 90vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
+
     margin-bottom: 100px;
 }
 
-#contact #content #contacter{
+#contact #content #contacter {
     width: 40%;
     height: 80%;
 }
 
-#contact #content article{
+#contact #content article {
     width: 40%;
     display: flex;
     justify-content: center;
@@ -406,21 +407,21 @@ header ul {
 
 }
 
-#contact #content #contacter h2{
+#contact #content #contacter h2 {
     font-family: "botak";
     font-size: 40pt;
     font-weight: 500;
     width: 750px;
 }
 
-#contact #content #contacter p{
+#contact #content #contacter p {
     font-family: "Amiko";
     font-size: 16pt;
     font-weight: 500;
     width: 750px;
 }
 
-#contact #content #contacter #liaison{
+#contact #content #contacter #liaison {
     padding: 100px;
     border-radius: 34px;
     background-color: #7ec7b7;
@@ -430,7 +431,7 @@ header ul {
     text-align: center;
 }
 
-#contact #content #contacter #liaison p{
+#contact #content #contacter #liaison p {
     width: auto;
     height: auto;
     color: rgba(238, 111, 125, 1);
@@ -438,9 +439,144 @@ header ul {
     font-size: 24pt;
 }
 
-#contact #content #contacter #liaison p span{
+#contact #content #contacter #liaison p span {
     width: auto;
     height: auto;
     font-size: 32pt;
     color: rgba(32, 34, 70, 1);
+}
+
+/*-----------page de projet------------*/
+
+#projet {
+    background-color: rgba(248, 194, 42, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#projet #transi {
+    margin-top: 50px;
+    width: 100vw;
+    margin-bottom: 0;
+}
+
+#projet #content {
+    width: 100vw;
+    background-color: rgba(254, 240, 225, 1);
+    margin-top: -1px;
+}
+
+#projet #content h1 {
+    padding: 0 10%;
+    text-align: end;
+    font-family: "botak";
+    font-weight: 500;
+    font-size: 64px;
+}
+
+#projet #content ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    justify-content: end;
+    padding: 0 10%;
+    font-family: "Amiko";
+
+}
+
+#projet #content ul li {
+    padding: 10px 20px;
+    font-size: 24px;
+    border: solid 5px rgba(32, 34, 70, 1);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#projet #content ul .selected {
+    background-color: #202246;
+    color: white;
+    transition: all 0.3s;
+}
+
+#projet #content .card {
+    position: relative;
+    height: 350px;
+    width: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#projet #content .card::before {
+    content: ""; /* Nécessaire pour afficher le pseudo-élément */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit; /* Hérite de l'image de fond de la carte */
+    background-size: inherit;
+    background-repeat: inherit;
+    background-position: inherit;
+    filter: brightness(1); /* Luminosité normale par défaut */
+    transition: filter 0.3s ease; /* Transition fluide */
+    z-index: 1; /* Place derrière le contenu */
+}
+
+#projet #content .card:hover::before {
+    filter: brightness(0.4); /* Assombrit au survol */
+}
+
+#projet #content .card p,
+#projet #content .card h2 {
+    position: relative;
+    z-index: 2; /* Place au-dessus du pseudo-élément */
+    color: white;
+    text-align: center;
+}
+
+#projet #content #cards {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 10%;
+    justify-content: end;
+    gap: 50px;
+    justify-content: end;
+    align-items: center;
+}
+
+#projet #content .card:hover::before {
+    transition: all 0.3s;
+    filter: brightness(0.4);
+}
+
+#projet #content .card p {
+    font-family: "Amiko";
+    background-color: rgba(238, 111, 125, 1);
+    color: white;
+    font-size: 24px;
+    width: auto;
+    padding: 8px 16px;
+    width: fit-content;
+    display: none;
+    filter: brightness(1);
+    border-radius: 40px;
+    transition: all 0.2s;
+}
+
+#projet #content .card h2 {
+    transition: all 0.2s;
+    display: none;
+    color: white;
+    font-family: "Amiko";
+    font-size: 32px;
 }
