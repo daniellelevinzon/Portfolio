@@ -503,8 +503,8 @@ header ul {
 
 #projet #content .card {
     position: relative;
-    height: 350px;
-    width: 600px;
+    height: 300px;
+    width: 500px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -547,10 +547,8 @@ header ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0 10%;
-    justify-content: end;
+    justify-content: center;
     gap: 50px;
-    justify-content: end;
     align-items: center;
 }
 

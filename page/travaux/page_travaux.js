@@ -1,5 +1,45 @@
 let list = document.getElementById("theme")
 let category = ["UI Design", "Illustration", "Motion design/Animation", "Graphisme", "Tout"]
+let allProjects
+
+function displayProjects(filter) {
+    let cardsContainer = document.getElementById('cards')
+    cardsContainer.innerHTML = "" // Supprime tous les projets affichés
+
+    let filtered = filter === "Tout"
+        ? allProjects
+        : allProjects.filter(projet => projet.tag.includes(filter))
+
+    filtered.forEach((projet, index) => {
+        let card = document.createElement('div')
+        card.id = index
+        card.classList.add("card")
+        card.style.backgroundImage = `url(../../${projet.card})`
+        cardsContainer.appendChild(card)
+
+        let text = document.createElement("p")
+        text.innerHTML = projet.endroit
+        card.appendChild(text)
+
+        let titre = document.createElement("h2")
+        titre.innerHTML = projet.name
+        card.appendChild(titre)
+
+        card.addEventListener("mouseenter", () => {
+            text.style.display = "block"
+            titre.style.display = "block"
+        })
+
+        card.addEventListener("mouseleave", () => {
+            titre.style.display = "none"
+            text.style.display = "none"
+        })
+
+        card.addEventListener("click",()=>{
+            localStorage.setItem("project", `${projet.name}`);
+        })
+    })
+}
 
 category.forEach(Element => {
     let list_element = document.createElement("li");
@@ -16,6 +56,7 @@ category.forEach(Element => {
             })
         }
         list_element.classList.add("selected")
+        displayProjects(Element)
     });
 })
 
@@ -24,9 +65,10 @@ fetch('../../experience.json')
         return response.json()
     })
     .then(data => {
-
+        allProjects = data
         data.forEach((projet, index) => {
             console.log(projet)
+            
 
 
             let card = document.createElement('div')
