@@ -10,9 +10,10 @@
 }
 
 footer {
+
     background-image: url("image/other/footer.svg");
-    height: 400px;
-    width: 100%;
+    height: 550px;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -454,6 +455,8 @@ header ul {
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 #projet #transi {
@@ -515,29 +518,36 @@ header ul {
 }
 
 #projet #content .card::before {
-    content: ""; /* Nécessaire pour afficher le pseudo-élément */
+    content: "";
+    /* Nécessaire pour afficher le pseudo-élément */
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: inherit; /* Hérite de l'image de fond de la carte */
+    background-image: inherit;
+    /* Hérite de l'image de fond de la carte */
     background-size: inherit;
     background-repeat: inherit;
     background-position: inherit;
-    filter: brightness(1); /* Luminosité normale par défaut */
-    transition: filter 0.3s ease; /* Transition fluide */
-    z-index: 1; /* Place derrière le contenu */
+    filter: brightness(1);
+    /* Luminosité normale par défaut */
+    transition: filter 0.3s ease;
+    /* Transition fluide */
+    z-index: 1;
+    /* Place derrière le contenu */
 }
 
 #projet #content .card:hover::before {
-    filter: brightness(0.4); /* Assombrit au survol */
+    filter: brightness(0.4);
+    /* Assombrit au survol */
 }
 
 #projet #content .card p,
 #projet #content .card h2 {
     position: relative;
-    z-index: 2; /* Place au-dessus du pseudo-élément */
+    z-index: 2;
+    /* Place au-dessus du pseudo-élément */
     color: white;
     text-align: center;
 }
@@ -555,6 +565,12 @@ header ul {
 #projet #content .card:hover::before {
     transition: all 0.3s;
     filter: brightness(0.4);
+}
+
+#projet #bas_de_page {
+    background-color: rgba(254, 240, 225, 1);
+    width: 100vw;
+    margin-bottom: -150px;
 }
 
 #projet #content .card p {
@@ -577,4 +593,28 @@ header ul {
     color: white;
     font-family: "Amiko";
     font-size: 32px;
+}
+
+/*-----------------slugpage-----------------------*/
+
+#slugpage_one {
+    background-color: rgba(254, 240, 225, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#slugpage_one #entete {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#entete #back-entete{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
 }

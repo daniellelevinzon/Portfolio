@@ -36,6 +36,7 @@ function displayProjects(filter) {
         })
 
         card.addEventListener("click",()=>{
+            console.log(projet.name)
             localStorage.setItem("project", `${projet.name}`);
         })
     })
@@ -104,7 +105,9 @@ fetch('../../experience.json')
 
 
             card.addEventListener("click",()=>{
-                localStorage.setItem("project", `${projet.name}`);
+                console.log(projet.name)
+                localStorage.setItem("project",  JSON.stringify(data.find(p => p.name === projet.name)));
+                window.location.href = "../slugpage/slug_one.html"
             })
 
         })
