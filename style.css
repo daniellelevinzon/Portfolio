@@ -10,9 +10,10 @@
 }
 
 footer {
+
     background-image: url("image/other/footer.svg");
-    height: 400px;
-    width: 100%;
+    height: 550px;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -459,6 +460,8 @@ header ul {
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 #projet #transi {
@@ -561,6 +564,12 @@ header ul {
 #projet #content .card:hover::before {
     transition: all 0.3s;
     filter: brightness(0.4);
+}
+
+#projet #bas_de_page {
+    background-color: rgba(254, 240, 225, 1);
+    width: 100vw;
+    margin-bottom: -150px;
 }
 
 #projet #content .card p {
