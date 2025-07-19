@@ -35,8 +35,12 @@ function displayProjects(filter) {
             text.style.display = "none"
         })
 
-        card.addEventListener("click",()=>{
+<<<<<<< HEAD
+        card.addEventListener("click", () => {
             console.log(projet.name)
+=======
+        card.addEventListener("click",()=>{
+>>>>>>> parent of 89cb206 (ajout du bas de page dans le travaux + avancement de la sslugpage)
             localStorage.setItem("project", `${projet.name}`);
         })
     })
@@ -69,7 +73,7 @@ fetch('../../experience.json')
         allProjects = data
         data.forEach((projet, index) => {
             console.log(projet)
-            
+
 
 
             let card = document.createElement('div')
@@ -105,9 +109,16 @@ fetch('../../experience.json')
 
 
             card.addEventListener("click",()=>{
+<<<<<<< HEAD
                 console.log(projet.name)
                 localStorage.setItem("projet",  JSON.stringify(data.find(p => p.name === projet.name)));
+=======
+                localStorage.setItem("project", `${projet.name}`);
+<<<<<<< HEAD
+>>>>>>> 90841b8050413e8422d2653318bf83af17a68473
                 window.location.href = "../slugpage/slug_one.html"
+=======
+>>>>>>> parent of 89cb206 (ajout du bas de page dans le travaux + avancement de la sslugpage)
             })
 
         })
