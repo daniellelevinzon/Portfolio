@@ -12,7 +12,7 @@
         "competence": ["création d'un logo", "Charte graphique", "posts resaux sociaux"],
         "presentation": "image/src_slugPage/presentation/pres_LBAM.svg",
         "card": "image/cards/card_LBAM.svg",
-        "tag": ["all","graphisme"]
+        "tag": ["Tout","Graphisme"]
     },
     {
         "name": "Module Halloween",
@@ -28,7 +28,7 @@
         "complement": "image/src_slugPage/complement/complement_halloween.svg",
         "presentation": "image/src_slugPage/presentation/pres_halloween.svg",
         "card": "image/cards/card_halloween.svg",
-        "tag": ["all","Motion_design/Animation","illustration"]
+        "tag": ["Tout","Motion design/Animation","Illustration"]
     },
     {
         "name": "MMI&Après",
@@ -44,7 +44,7 @@
         "complement": "uimage/src_slugPage/complement/complement_MMI&apres.svg",
         "presentation": "image/src_slugPage/presentation/pres_MMI&apres.svg",
         "card": "image/cards/card_MMI&Après.svg",
-        "tag": ["all","graphisme","illustration"]
+        "tag": ["Tout","Graphisme","Illustration"]
     },
     {
         "name": "Projet AR ; la course poursuite",
@@ -60,7 +60,7 @@
         "complement": "image/src_slugPage/complement/complement_AR.svg",
         "presentation": "image/src_slugPage/presentation/pres_AR.svg",
         "card": "image/cards/card_AR.svg",
-        "tag": ["all","Motion_design/Animation","illustration"]
+        "tag": ["Tout","Motion design/Animation","Illustration"]
     },
     {
         "name": "Dernierarret",
@@ -72,11 +72,11 @@
         "context": "Animation 2D en collaboration avec Roman KUZBINSKI. J’ai réalisé le fond, le colour script et une partie du compositing de la vidéo, pendant que Roman a réalisé l’animation en elle-même.",
         "logiciel": ["image/logo_logiciel/clip_studio.svg","image/logo_logiciel/after_effect.svg","image/logo_logiciel/Animate.svg"],
         "demarche": "Tout d’abord, j’ai recherché différentes atmosphères de couleur qui pourraient correspondre à un coucher de soleil et à la nostalgie.Une fois les couleurs choisies avec Roman, j’ai réalisé le fond de l’animation en le basant sur les trains japonais. Je l’ai ensuite sectionné en différents calques pour faire un effet de parallaxe.Pour la touche finale, j’ai ajouté les lumières des fenêtres et les ombres sur les personnages sur After Effects.",
-        "competence": ["color script","illustration","Compositing"],
+        "competence": ["color script","Illustration","Compositing"],
         "complement": "image/src_slugPage/complement/complement_dernier_arret.svg",
         "presentation": "image/src_slugPage/presentation/pres_dernier_arret.svg",
         "card": "image/cards/card_dernier_arret.svg",
-        "tag": ["all","Motion_design/Animation"]
+        "tag": ["Tout","Motion design/Animation"]
     },
     {
         "name": "Mondays",
@@ -91,7 +91,7 @@
         "competence": ["Motion design","Animation 2d"],
         "presentation": "image/src_slugPage/presentation/pres_mondays_challenge.svg",
         "card": "image/cards/card_mondays.svg",
-        "tag": ["all","Motion_design/Animation"]
+        "tag": ["Tout","Motion design/Animation"]
     },
     {
         "name": "Tshirt",
@@ -103,11 +103,11 @@
         "context": "Aimant beaucoup créer des objets print et la mode alternative japonaise, j’ai conçu un t-shirt sur le thème du Yami Kawaii et son icône Menhera-chan.Le résultat ayant été imprimé, j’ai dû prendre en compte des contraintes techniques liées à l’impression.",
         "logiciel": ["image/logo_logiciel/Adobe_illustrator.svg","image/logo_logiciel/clip_studio.svg"],
         "demarche": "J’ai d’abord cherché des t-shirts dans le style Yami Kawaii pour m’imprégner de l’univers de cette mode.Ensuite, j’ai réalisé plusieurs croquis sur papir et j’ai choisi celui qui me plaisait le plus. Je l’ai reproduit sur Clip Studio Paint pour ensuite le réaliser sur Illustrator. J’ai dû faire attention à bien choisir mes couleurs en CMJN et respecter la zone d’impression du t-shirt.",
-        "competence": ["Graphisme print","illustration"],
+        "competence": ["Graphisme print","Illustration"],
         "complement": "image/src_slugPage/complement/complement_tee_shirt.svg",
         "presentation": "image/src_slugPage/presentation/pres_design_tee_shirt.svg",
         "card": "image/cards/card_deasign_tee_shirt.svg",
-        "tag": ["all","graphisme","illustration"]
+        "tag": ["Tout","Graphisme","Illustration"]
     },
     {
         "name": "Icones pour  la Société Général",
@@ -119,10 +119,10 @@
         "context": "Dans le cadre de la création d’un module e-learning pour Société Générale, il m'a été demandé de créer des icônes illustrant les sujets abordés. Je me suis donc basée sur le contenu et la charte graphique pré-fournis.",
         "logiciel": ["image/logo_logiciel/Adobe_illustrator.svg"],
         "demarche": "Le client nous a envoyé un diaporama avec le contenu du module ainsi que la charte graphique de la Société Générale. Ma collègue Mélina Dagand était chargée de mettre en forme le module sur Elucidat, pendant que je devais faire les icônes illustrant le texte.J’ai analysé ces documents et réfléchi aux différentes icônes qui seraient adaptées pour les points évoqués.Ensuite, je les ai réalisées sur Illustrator.",
-        "competence": ["graphisme", "Application d'une charte graphique"],
+        "competence": ["Graphisme", "Application d'une charte graphique"],
         "presentation": "image/src_slugPage/presentation/pres_icon_SG.svg",
         "card": "image/cards/card_icon_SG.svg",
-        "tag": ["all","graphisme"]
+        "tag": ["Tout","Graphisme"]
     },
     {
         "name": "Malakoff",
@@ -137,7 +137,7 @@
         "competence": ["Animation","sound design"],
         "presentation": "image/src_slugPage/presentation/pres_Malakoff.svg",
         "card": "image/cards/card_malakoff.svg",
-        "tag": ["all","Motion_design/Animation"]
+        "tag": ["Tout","Motion design/Animation"]
     },
     {
         "name": "Gutenberg",
@@ -153,7 +153,7 @@
         "complement": "image/src_slugPage/complement/complement_gutemberg.svg",
         "presentation": "image/src_slugPage/presentation/pres_Gutemberg.svg",
         "card": "image/cards/card_Gutenberg.svg",
-        "tag": ["all","graphisme","UI_design"]
+        "tag": ["Tout","Graphisme","UI Design"]
     },
     {
         "name": "DA Fruitz",
@@ -169,7 +169,7 @@
         "complement": "image/src_slugPage/complement/complement_fruitz.svg",
         "presentation": "image/src_slugPage/presentation/pres_fruitz.svg",
         "card": "image/cards/card_fruitz.svg",
-        "tag": ["all","graphisme","UI_design"]
+        "tag": ["Tout","Graphisme","UI Design"]
     },
     {
         "name": "Pub",
@@ -181,11 +181,11 @@
         "context": "Dans le cadre de mes cours, j'ai dû réaliser une publicité pour mon entreprise d'alternance. Mobiteach, qui est liée à XPERTEAM-EASY, avait besoin d'une vidéo promotionnelle. J'ai donc travaillé avec eux pour l'écriture et la réalisation de cette publicité.",
         "logiciel": ["image/logo_logiciel/after_effect.svg","image/logo_logiciel/Adobe_illustrator.svg"],
         "demarche": "J'ai d'abord discuté avec les commerciaux pour établir les arguments de vente et comment la solution se différencie des autres sur le marché.Grâce à ça, j'ai écrit un scénario reprenant l'esprit décalé et jeune de l'entreprise, tout en m'adaptant à la cible de l'entreprise, qui est les chargés de formation dans les grandes entreprises d’industrie.Après validation de mes collègues, j'ai créé les différents plans sur Illustrator en me basant sur les interfaces de Mobiteach, pour montrer la facilité d'utilisation de la solution.J'ai ensuite tout animé sur After Effects et livré le travail.",
-        "competence": ["Motion design","illustration","écriture d'un scénario","Storyboard"],
+        "competence": ["Motion design","Illustration","écriture d'un scénario","Storyboard"],
         "complement": "image/src_slugPage/complement/complement_pub_mobiteach.svg",
         "presentation": "image/src_slugPage/presentation/pres_pub_mobiteach.svg",
         "card": "image/cards/card_pub_mobiteach.svg",
-        "tag": ["all","graphisme","Motion_design/Animation"]
+        "tag": ["Tout","Graphisme","Motion design/Animation"]
     },
     {
         "name": "Stage chez Danim",
@@ -197,11 +197,11 @@
         "context": "De mai à fin juillet 2023, j'ai effectué un stage chez Danim, une solution de templates automatisés de motion design.J'ai donc réalisé diverses tâches, allant d'illustration pour du print à des animations en motion design pour la communication et la plateforme.",
         "logiciel": ["image/logo_logiciel/after_effect.svg", "image/logo_logiciel/Adobe_illustrator.svg"],
         "demarche": "<span>Kakemono</span>Danim préparait sa participation à des salons. Il m'a donc été demandé de faire un kakemono montrant les avantages de la solution.Il m’a été donné un ancien kakemono de Danim sur lequel me baser. Je l’ai donc retravaillé et adapté à la demande et à la charte actuelle.Pour attirer le regard des passants, j'ai choisi de faire une grande illustration. J'ai donc crayonné quelques compositions où un personnage utilise la plateforme entouré d'éléments en rapport avec la vidéo et les réseaux sociaux. Après avoir trouvé une idée qui me plaît et qui a été validée, je l'ai faite sur Illustrator. Le résultat a été imprimé grandeur nature et utilisé pour les salons !",
-        "competence": ["Animation", "réalisation d'une direction artistique", "illustration"],
+        "competence": ["Animation", "réalisation d'une direction artistique", "Illustration"],
         "complement": "image/src_slugPage/complement/complement_stage.svg",
         "presentation": "image/src_slugPage/presentation/pres_stage_danim.svg",
         "card": "image/cards/card_Stage.svg",
-        "tag": ["all","graphisme","Motion_design/Animation","illustration"]
+        "tag": ["Tout","Graphisme","Motion design/Animation","Illustration"]
     },
     {
         "name": "RS Mobi",
@@ -213,11 +213,11 @@
         "context": "Pendant mon alternance, j'ai été chargée de créer les visuels pour la communication de Mobiteach. Le contenu m'était majoritairement fourni, mais il y avait aussi des publications où j'étais aussi chargée de l'écriture.",
         "logiciel": ["image/logo_logiciel/Adobe_illustrator.svg","image/logo_logiciel/after_effect.svg"],
         "demarche": "La chargée de communication, Cloé Stievenard, et le commercial Alexander Innes me donnaient le contenu lors de réunions de communication hebdomadaires. Je m'appropriais donc le texte et réfléchissais à une manière simple et visuelle de comprendre les concepts énoncés : les mots-clés, les bons pictos... Je mettais tout ça en forme avec la charte de Mobiteach, et pour une touche de fun, j'intégrais la mascotte de l'entreprise : Pascal !Quant aux projets notoires, j'ai été chargée de créer une série d'infographies présentant les fonctionnalités de Mobiteach. On m'a donné des thèmes à aborder et je cherchais sur le site web et la documentation le contenu que je pouvais intégrer dessus. J'ai également échangé avec les commerciaux sur cette partie.Une fois le contenu définit, je réfléchissais à des idées de composition décalée. Afin de rendre les infographies plus amusantes à regarder, j'ai choisi de mettre Pascal au centre tout en lui donnant un design officiel aux couleurs de Mobiteach ! (qui jusqu'à maintenant était un simple caméléon vert...)J'ai également créé l'univers graphique pour une interview de Alexander Innes. Je me suis basée sur les lignes de soulignage que l'ont trouve souvent dans des contextes d'apprentissage afin de créer des animations captivantes pour le titre et les questions.Vous pouvez tout voir ici !",
-        "competence": ["illustration","Motion design","Conception de personnage"],
+        "competence": ["Illustration","Motion design","Conception de personnage"],
         "complement": "image/src_slugPage/complement/complement_RS_mobiteach.svg",
         "presentation": "image/src_slugPage/presentation/pres_RS_mobiteach.svg",
         "card": "image/cards/card_RS_Mobi.svg",
-        "tag": ["all","graphisme","illustration"]
+        "tag": ["Tout","Graphisme","Illustration"]
     },
     {
         "name": "Conception pédagogique",
@@ -233,7 +233,7 @@
         "complement": "image/src_slugPage/complement/complement_conception_peda.svg",
         "presentation": "image/src_slugPage/presentation/pres_conception_peda.svg",
         "card": "image/cards/card_conception_peda.svg",
-        "tag": ["all","Motion_design/Animation","illustration"]
+        "tag": ["Tout","Motion design/Animation","Illustration"]
     },
     {
         "name": "Un seul clic",
@@ -249,7 +249,7 @@
         "complement": "image/src_slugPage/complement/complement_clic.svg",
         "presentation": "image/src_slugPage/presentation/pres_clic.svg",
         "card": "image/cards/card_Clic.svg",
-        "tag": ["all","Motion_design/Animation","illustration"]
+        "tag": ["Tout","Motion design/Animation","Illustration"]
     },
     {
         "name": "Lonejyc",
@@ -265,7 +265,7 @@
         "complement": "image/src_slugPage/complement/complement_overlay_lonejyc.svg",
         "presentation": "image/src_slugPage/presentation/pres_overlay_lonejyc.svg",
         "card": "image/cards/card_Lonejyc.svg",
-        "tag": ["all","graphisme","Motion_design/Animation","UI_design"]
+        "tag": ["Tout","Graphisme","Motion design/Animation","UI Design"]
     },
     {
         "name": "Stop motion",
@@ -281,7 +281,7 @@
         "complement": "image/src_slugPage/complement/complement_stop_motion.svg",
         "presentation": "image/src_slugPage/presentation/pres_stop_motion.svg",
         "card": "image/cards/card_Stop_motion.svg",
-        "tag": ["all","Motion_design/Animation","illustration"]
+        "tag": ["Tout","Motion design/Animation","Illustration"]
     },
     {
         "name": "Projet de fin d'année",
@@ -292,11 +292,11 @@
         "content_presentation": "url pour plutard",
         "context": "Pour la fin de ma troisième année de MMI, nous devions créer une œuvre basée sur un poème parmi 4 donnés. Elle devait mettre en valeur nos compétences acquises depuis ces 3 années et nous faire sortir de notre zone de confort.",
         "logiciel": ["image/logo_logiciel/rive.svg","image/logo_logiciel/Adobe_illustrator.svg"],
-        "demarche": "J'ai choisi le poème 'Les fleurs d'une autre dimension' de Pierre Lapointe. Il parle d'une fleur qui continue de pousser malgré la souffrance que lui infligent les humains.\nLes deux premières strophes m'ont rappelé une situation de maltraitance où les auteurs de celle-ci ne se rendent pas compte de leurs actions ou les justifient par 'le faire pour le bien de l'autre'. Cela arrive notamment dans la relation parent-enfant.\nJ'ai donc choisi de faire une œuvre interactive. Elle met un personnage fleur au centre de l'œuvre, entouré de mains à première vue bienfaitrices, mais avec un clic sur sa tête, on peut voir le point de vue réel de la fleur. L'utilisateur peut actionner ces mains et il est donc mis à la place de l'auteur de la maltraitance.\nPour le choix du design du personnage, j'ai fait une recherche sur le langage des fleurs. Il est ainsi basé sur le muguet, qui outre sa signification de bonne chance, représente aussi l'innocence et la pureté. Pour l’esthétique générale, j’ai choisi de la baser sur les cyanotypes qui sont pour la plupart des tirages de plantes.\nL'illustration a été faite sur Illustrator et toute la partie animation et interaction a été faite sur Rive.\nGrâce à ce projet, j'ai enfin pu essayer Rive qui m'intriguait depuis un moment. C'était très amusant et j'espère faire d'autres projets dessus !",
+        "demarche": "J'ai choisi le poème 'Les fleurs d'une autre dimension' de Pierre Lapointe. Il parle d'une fleur qui continue de pousser malgré la souffrance que lui infligent les humains.\nLes deux premières strophes m'ont rappelé une situation de maltraitance où les auteurs de celle-ci ne se rendent pas compte de leurs actions ou les justifient par 'le faire pour le bien de l'autre'. Cela arrive notamment dans la relation parent-enfant.\nJ'ai donc choisi de faire une œuvre interactive. Elle met un personnage fleur au centre de l'œuvre, entouré de mains à première vue bienfaitrices, mais avec un clic sur sa tête, on peut voir le point de vue réel de la fleur. L'utilisateur peut actionner ces mains et il est donc mis à la place de l'auteur de la maltraitance.\nPour le choix du design du personnage, j'ai fait une recherche sur le langage des fleurs. Il est ainsi basé sur le muguet, qui outre sa signification de bonne chance, représente aussi l'innocence et la pureté. Pour l’esthétique générale, j’ai choisi de la baser sur les cyanotypes qui sont pour la plupart des tirages de plantes.\nL'Illustration a été faite sur Illustrator et toute la partie animation et interaction a été faite sur Rive.\nGrâce à ce projet, j'ai enfin pu essayer Rive qui m'intriguait depuis un moment. C'était très amusant et j'espère faire d'autres projets dessus !",
         "competence": ["Créer de l'interaction","Animation","Conception de personnage","Illustration"],
         "complement": "image/src_slugPage/complement/complement_proj_fin_d'annee.svg",
         "presentation": "image/src_slugPage/presentation/pres_proj_fin_d'annee.svg",
         "card": "image/cards/card_projet_fin_annee.svg",
-        "tag": ["all","Motion_design/Animation","illustration",]
+        "tag": ["Tout","Motion design/Animation","Illustration"]
     }
 ]
