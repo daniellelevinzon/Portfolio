@@ -106,7 +106,7 @@ fetch('../../experience.json')
 
             card.addEventListener("click",()=>{
                 console.log(projet.name)
-                localStorage.setItem("project",  JSON.stringify(data.find(p => p.name === projet.name)));
+                localStorage.setItem("projet",  JSON.stringify(data.find(p => p.name === projet.name)));
                 window.location.href = "../slugpage/slug_one.html"
             })
 

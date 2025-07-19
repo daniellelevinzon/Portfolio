@@ -12,7 +12,8 @@
         "competence": ["création d'un logo", "Charte graphique", "posts resaux sociaux"],
         "presentation": "image/src_slugPage/presentation/pres_LBAM.svg",
         "card": "image/cards/card_LBAM.svg",
-        "tag": ["Tout","Graphisme"]
+        "tag": ["Tout","Graphisme"],
+        "theme": false
     },
     {
         "name": "Module Halloween",
@@ -28,7 +29,8 @@
         "complement": "image/src_slugPage/complement/complement_halloween.svg",
         "presentation": "image/src_slugPage/presentation/pres_halloween.svg",
         "card": "image/cards/card_halloween.svg",
-        "tag": ["Tout","Motion design/Animation","Illustration"]
+        "tag": ["Tout","Motion design/Animation","Illustration"],
+        "theme": true
     },
     {
         "name": "MMI&Après",
@@ -44,7 +46,8 @@
         "complement": "uimage/src_slugPage/complement/complement_MMI&apres.svg",
         "presentation": "image/src_slugPage/presentation/pres_MMI&apres.svg",
         "card": "image/cards/card_MMI&Après.svg",
-        "tag": ["Tout","Graphisme","Illustration"]
+        "tag": ["Tout","Graphisme","Illustration"],
+        "theme": false
     },
     {
         "name": "Projet AR ; la course poursuite",
@@ -60,7 +63,8 @@
         "complement": "image/src_slugPage/complement/complement_AR.svg",
         "presentation": "image/src_slugPage/presentation/pres_AR.svg",
         "card": "image/cards/card_AR.svg",
-        "tag": ["Tout","Motion design/Animation","Illustration"]
+        "tag": ["Tout","Motion design/Animation","Illustration"],
+        "theme": true
     },
     {
         "name": "Dernierarret",
@@ -76,7 +80,8 @@
         "complement": "image/src_slugPage/complement/complement_dernier_arret.svg",
         "presentation": "image/src_slugPage/presentation/pres_dernier_arret.svg",
         "card": "image/cards/card_dernier_arret.svg",
-        "tag": ["Tout","Motion design/Animation"]
+        "tag": ["Tout","Motion design/Animation"],
+        "theme": false
     },
     {
         "name": "Mondays",
@@ -91,7 +96,8 @@
         "competence": ["Motion design","Animation 2d"],
         "presentation": "image/src_slugPage/presentation/pres_mondays_challenge.svg",
         "card": "image/cards/card_mondays.svg",
-        "tag": ["Tout","Motion design/Animation"]
+        "tag": ["Tout","Motion design/Animation"],
+        "theme": false
     },
     {
         "name": "Tshirt",
@@ -107,7 +113,8 @@
         "complement": "image/src_slugPage/complement/complement_tee_shirt.svg",
         "presentation": "image/src_slugPage/presentation/pres_design_tee_shirt.svg",
         "card": "image/cards/card_deasign_tee_shirt.svg",
-        "tag": ["Tout","Graphisme","Illustration"]
+        "tag": ["Tout","Graphisme","Illustration"],
+        "theme": false
     },
     {
         "name": "Icones pour  la Société Général",
@@ -122,7 +129,9 @@
         "competence": ["Graphisme", "Application d'une charte graphique"],
         "presentation": "image/src_slugPage/presentation/pres_icon_SG.svg",
         "card": "image/cards/card_icon_SG.svg",
-        "tag": ["Tout","Graphisme"]
+        "tag": ["Tout","Graphisme"],
+        "theme": false
+
     },
     {
         "name": "Malakoff",
@@ -137,7 +146,8 @@
         "competence": ["Animation","sound design"],
         "presentation": "image/src_slugPage/presentation/pres_Malakoff.svg",
         "card": "image/cards/card_malakoff.svg",
-        "tag": ["Tout","Motion design/Animation"]
+        "tag": ["Tout","Motion design/Animation"],
+        "theme":false
     },
     {
         "name": "Gutenberg",
@@ -153,7 +163,8 @@
         "complement": "image/src_slugPage/complement/complement_gutemberg.svg",
         "presentation": "image/src_slugPage/presentation/pres_Gutemberg.svg",
         "card": "image/cards/card_Gutenberg.svg",
-        "tag": ["Tout","Graphisme","UI Design"]
+        "tag": ["Tout","Graphisme","UI Design"],
+        "theme":true
     },
     {
         "name": "DA Fruitz",
@@ -169,7 +180,9 @@
         "complement": "image/src_slugPage/complement/complement_fruitz.svg",
         "presentation": "image/src_slugPage/presentation/pres_fruitz.svg",
         "card": "image/cards/card_fruitz.svg",
-        "tag": ["Tout","Graphisme","UI Design"]
+        "tag": ["Tout","Graphisme","UI Design"],
+        "theme":false
+
     },
     {
         "name": "Pub",
@@ -185,7 +198,8 @@
         "complement": "image/src_slugPage/complement/complement_pub_mobiteach.svg",
         "presentation": "image/src_slugPage/presentation/pres_pub_mobiteach.svg",
         "card": "image/cards/card_pub_mobiteach.svg",
-        "tag": ["Tout","Graphisme","Motion design/Animation"]
+        "tag": ["Tout","Graphisme","Motion design/Animation"],
+        "theme":false
     },
     {
         "name": "Stage chez Danim",
@@ -201,7 +215,8 @@
         "complement": "image/src_slugPage/complement/complement_stage.svg",
         "presentation": "image/src_slugPage/presentation/pres_stage_danim.svg",
         "card": "image/cards/card_Stage.svg",
-        "tag": ["Tout","Graphisme","Motion design/Animation","Illustration"]
+        "tag": ["Tout","Graphisme","Motion design/Animation","Illustration"],
+        "theme":true
     },
     {
         "name": "RS Mobi",
@@ -217,7 +232,8 @@
         "complement": "image/src_slugPage/complement/complement_RS_mobiteach.svg",
         "presentation": "image/src_slugPage/presentation/pres_RS_mobiteach.svg",
         "card": "image/cards/card_RS_Mobi.svg",
-        "tag": ["Tout","Graphisme","Illustration"]
+        "tag": ["Tout","Graphisme","Illustration"],
+        "theme":false
     },
     {
         "name": "Conception pédagogique",
@@ -233,7 +249,8 @@
         "complement": "image/src_slugPage/complement/complement_conception_peda.svg",
         "presentation": "image/src_slugPage/presentation/pres_conception_peda.svg",
         "card": "image/cards/card_conception_peda.svg",
-        "tag": ["Tout","Motion design/Animation","Illustration"]
+        "tag": ["Tout","Motion design/Animation","Illustration"],
+        "theme":false
     },
     {
         "name": "Un seul clic",
@@ -249,7 +266,8 @@
         "complement": "image/src_slugPage/complement/complement_clic.svg",
         "presentation": "image/src_slugPage/presentation/pres_clic.svg",
         "card": "image/cards/card_Clic.svg",
-        "tag": ["Tout","Motion design/Animation","Illustration"]
+        "tag": ["Tout","Motion design/Animation","Illustration"],
+        "theme":true
     },
     {
         "name": "Lonejyc",
@@ -265,7 +283,8 @@
         "complement": "image/src_slugPage/complement/complement_overlay_lonejyc.svg",
         "presentation": "image/src_slugPage/presentation/pres_overlay_lonejyc.svg",
         "card": "image/cards/card_Lonejyc.svg",
-        "tag": ["Tout","Graphisme","Motion design/Animation","UI Design"]
+        "tag": ["Tout","Graphisme","Motion design/Animation","UI Design"],
+        "theme": true
     },
     {
         "name": "Stop motion",
@@ -281,7 +300,8 @@
         "complement": "image/src_slugPage/complement/complement_stop_motion.svg",
         "presentation": "image/src_slugPage/presentation/pres_stop_motion.svg",
         "card": "image/cards/card_Stop_motion.svg",
-        "tag": ["Tout","Motion design/Animation","Illustration"]
+        "tag": ["Tout","Motion design/Animation","Illustration"],
+        "theme":false
     },
     {
         "name": "Projet de fin d'année",
@@ -297,6 +317,7 @@
         "complement": "image/src_slugPage/complement/complement_proj_fin_d'annee.svg",
         "presentation": "image/src_slugPage/presentation/pres_proj_fin_d'annee.svg",
         "card": "image/cards/card_projet_fin_annee.svg",
-        "tag": ["Tout","Motion design/Animation","Illustration"]
+        "tag": ["Tout","Motion design/Animation","Illustration"],
+        "theme":false
     }
 ]

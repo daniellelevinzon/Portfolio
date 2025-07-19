@@ -613,8 +613,20 @@ header ul {
     justify-content: center;
 
 }
-#entete #back-entete{
+#entete #background-entete{
     position: absolute;
     width: 100%;
     z-index: -1;
+}
+#entete #return{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 30%;
+    left: 10%;
+
+}
+
+#entete #pres{
+    
 }
