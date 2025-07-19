@@ -35,8 +35,12 @@ function displayProjects(filter) {
             text.style.display = "none"
         })
 
+<<<<<<< HEAD
         card.addEventListener("click", () => {
             console.log(projet.name)
+=======
+        card.addEventListener("click",()=>{
+>>>>>>> parent of 89cb206 (ajout du bas de page dans le travaux + avancement de la sslugpage)
             localStorage.setItem("project", `${projet.name}`);
         })
     })
@@ -106,7 +110,10 @@ fetch('../../experience.json')
 
             card.addEventListener("click",()=>{
                 localStorage.setItem("project", `${projet.name}`);
+<<<<<<< HEAD
                 window.location.href = "../slugpage/slug_one.html"
+=======
+>>>>>>> parent of 89cb206 (ajout du bas de page dans le travaux + avancement de la sslugpage)
             })
 
         })
