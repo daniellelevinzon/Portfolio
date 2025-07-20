@@ -659,3 +659,7 @@ header ul {
     display: flex;
     justify-content: center;
 }
+
+#slugpage_one iframe{
+    margin: 10%;
+}

@@ -1,5 +1,8 @@
 const projet = JSON.parse(localStorage.getItem("projet"));
-let size = window.offsetHeight
+function isExternalLink(url) {
+    return url.startsWith('http://') || url.startsWith('https://');
+}
+
 
 if (projet === null) {
     window.location = "../travaux/travaux.html"
@@ -27,6 +30,25 @@ date.innerHTML = projet.date
 endroit.innerHTML = projet.endroit
 complement.appendChild(endroit)
 complement.appendChild(date)
-let
+
+let contenu = document.getElementById("content")
+
+if(isExternalLink(projet.content_presentation)){
+    let iframe = document.createElement("iframe");
+    iframe.width = "1000px";
+    iframe.height = "600px"
+    iframe.src = projet.content_presentation;
+    iframe.title = "YouTube video player";
+    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    iframe.referrerPolicy = "strict-origin-when-cross-origin";
+    iframe.allowFullscreen = true;
+    contenu.appendChild(iframe);
+}else{
+    img = document.createElement("img")
+    img.height = "600px"
+    img.width = "1000px"
+    img.src = `../../${projet.content_presentation}`
+    contenu.appendChild(img);
+}
 
 
