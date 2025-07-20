@@ -12,7 +12,7 @@
 footer {
     background-image: url("image/other/footer.svg");
     height: 400px;
-    width: 100%;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -183,6 +183,7 @@ footer #option_nav nav h4 {
 }
 
 header {
+    height: 100px;
     margin-top: 50px;
     width: 80vw;
     display: flex;
@@ -446,6 +447,8 @@ header ul {
     color: rgba(32, 34, 70, 1);
 }
 
+
+
 /*-----------page de projet------------*/
 
 #projet {
@@ -466,6 +469,7 @@ header ul {
     width: 100vw;
     background-color: rgba(254, 240, 225, 1);
     margin-top: -1px;
+    padding-bottom: 400px;
 }
 
 #projet #content h1 {
@@ -503,8 +507,8 @@ header ul {
 
 #projet #content .card {
     position: relative;
-    height: 350px;
-    width: 600px;
+    height: 300px;
+    width: 500px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -515,29 +519,29 @@ header ul {
 }
 
 #projet #content .card::before {
-    content: ""; /* Nécessaire pour afficher le pseudo-élément */
+    content: ""; 
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: inherit; /* Hérite de l'image de fond de la carte */
+    background-image: inherit; 
     background-size: inherit;
     background-repeat: inherit;
     background-position: inherit;
-    filter: brightness(1); /* Luminosité normale par défaut */
-    transition: filter 0.3s ease; /* Transition fluide */
-    z-index: 1; /* Place derrière le contenu */
+    filter: brightness(1); 
+    transition: filter 0.3s ease; 
+    z-index: 1; 
 }
 
 #projet #content .card:hover::before {
-    filter: brightness(0.4); /* Assombrit au survol */
+    filter: brightness(0.4); 
 }
 
 #projet #content .card p,
 #projet #content .card h2 {
     position: relative;
-    z-index: 2; /* Place au-dessus du pseudo-élément */
+    z-index: 2; 
     color: white;
     text-align: center;
 }
@@ -547,10 +551,8 @@ header ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0 10%;
-    justify-content: end;
+    justify-content: center;
     gap: 50px;
-    justify-content: end;
     align-items: center;
 }
 
@@ -581,6 +583,12 @@ header ul {
     font-size: 32px;
 }
 
+#projet #bas_de_page{
+    width: 100vw;
+    margin-top: -300px;
+    margin-bottom: -150px;
+}
+
 /*-----------------slugpage-----------------------*/
 
 #slugpage_one {
@@ -596,8 +604,9 @@ header ul {
 #slugpage_one #entete {
     width: 100%;
     display: flex;
-    justify-content: center;
-
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 #entete #background-entete{
     position: absolute;
@@ -614,5 +623,39 @@ header ul {
 }
 
 #entete #pres{
-    
+    max-width: 450px;
+    min-width: 250px;
+    min-height: 150px;
+    align-self: flex-start;
+    margin-bottom: 10%;
+    margin-left: 200px;
+    font-family: "amiko";
+    display: flex;
+    flex-direction: column;
+}
+
+#entete #pres #complement{
+    width: 100%;
+    height: 20%;
+    font-family: 'amiko';
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#entete #pres #title{
+    width: 100%;
+    height: 80%;
+    font-family: "botak";
+    font-size: 56pt;
+    display: flex;
+    align-items: end;
+    text-align: justify;
+}
+
+#slugpage_one #content{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
 }

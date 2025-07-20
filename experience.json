@@ -317,15 +317,8 @@
         "complement": "image/src_slugPage/complement/complement_proj_fin_d'annee.svg",
         "presentation": "image/src_slugPage/presentation/pres_proj_fin_d'annee.svg",
         "card": "image/cards/card_projet_fin_annee.svg",
-<<<<<<< HEAD
+
         "tag": ["Tout","Motion design/Animation","Illustration"],
         "theme":false
-=======
-<<<<<<< HEAD
-        "tag": ["Tout","Motion design/Animation","Illustration"]
-=======
-        "tag": ["all","Motion_design/Animation","illustration"]
->>>>>>> parent of eb703c1 (tentative de merge)
->>>>>>> 90841b8050413e8422d2653318bf83af17a68473
     }
 ]
