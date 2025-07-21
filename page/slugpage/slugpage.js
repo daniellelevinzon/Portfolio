@@ -9,7 +9,9 @@ if (projet === null) {
 }
 
 if (projet.theme) {
-    document.querySelectorAll("header a")[0].style.color = 'white'
+    document.querySelectorAll("header a").forEach(element => {
+        element.style.color = 'white'
+    });
 }
 
 document.getElementById("background-entete").src = `../../${projet.presentation}`
@@ -79,6 +81,22 @@ demarche.innerHTML = projet.demarche
 document.getElementById("Demarche").appendChild(demarche)
 
 projet.logiciel.forEach(logiciel=>{
-    
+    let image = document.createElement("img")
+    image.src = `../../${logiciel}`
+    document.getElementById("image").appendChild(image)
+
 })
+
+projet.competence.forEach(element =>{
+    let liste = document.createElement("li")
+    liste.innerHTML = element
+    document.querySelector("#Competence ul").appendChild(liste)
+})
+
+if(projet.complement){
+    let image = document.createElement("img")
+    image.src = `../../${projet.complement}`
+    image.id = "complement"
+    document.getElementById("detail").appendChild(image)
+}
 

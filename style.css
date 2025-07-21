@@ -673,7 +673,7 @@ header ul {
     width: 50%;
 }
 
-#slugpage #explication{
+#slugpage #explication {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -690,7 +690,7 @@ header ul {
     margin-bottom: 20px;
 }
 
-#slugpage #explication article span{
+#slugpage #explication article span {
     font-family: 'amiko';
 }
 
@@ -702,18 +702,40 @@ header ul {
     flex-wrap: wrap;
     justify-content: center;
 }
-#slugpage #detail div{
+
+#slugpage #detail div {
     width: 45%;
     margin-right: 50px;
 }
- 
+
 #slugpage #detail h2 {
     font-family: "botak";
     font-size: 48pt;
 
 }
 
-#slugpage #detail p{ 
+#slugpage #detail p {
     font-family: 'amiko';
     font-size: 16pt;
+}
+
+#slugpage #detail #Demarche{
+    margin-bottom: 10vh;
+}
+
+#slugpage #image img {
+    margin-right: 20px;
+}
+
+#slugpage #Competence ul li {
+    list-style: none;
+    font-family: 'amiko';
+    font-size: 16pt;
+    margin: 40px 0px;
+}
+
+#slugpage #detail #complement{
+    width: 100vw;
+    margin-left: -20%;
+    margin-top: 10%;
 }

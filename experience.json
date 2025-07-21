@@ -43,7 +43,7 @@
         "logiciel": ["image/logo_logiciel/Adobe_illustrator.svg", "image/logo_logiciel/after_effect.svg"],
         "demarche": "L’objectif de la communication était de rendre amusant ce moment professionnel pour motiver les étudiants de la promotion à participer.J’ai travaillé avec un autre graphiste de mon TP pour élaborer les deux mascottes. En reprenant le thème de l’événement, qui était le parc d'attractions, nous avons décidé de les baser sur la pêche aux canards, représentant les entreprises qui pêchent des stagiaires.À partir de ça et d’un brainstorming avec le TP, j’ai réalisé une affiche aux couleurs de l’événement.Quant au vidéo mapping en groupe, nous devions réaliser les fenêtres d’une maison. En reprenant le concept de l’événement, nous avons choisi de montrer une activité de parc d'attractions sur chacune d’entre elles.J’ai donc réalisé des illustrations et animé 2 fenêtres en les important dans After Effects.",
         "competence": ["Conception de personnage 3D", "Modélisation 3D", "Créer de l'interaction"],
-        "complement": "uimage/src_slugPage/complement/complement_MMI&apres.svg",
+        "complement": "image/src_slugPage/complement/complement_MMI&apres.svg",
         "presentation": "image/src_slugPage/presentation/pres_MMI&apres.svg",
         "card": "image/cards/card_MMI&Après.svg",
         "tag": ["Tout","Graphisme","Illustration"],
@@ -68,6 +68,7 @@
     },
     {
         "name": "Dernierarret",
+        "context": "Animation 2D en collaboration avec Roman KUZBINSKI. J’ai réalisé le fond, le colour script et une partie du compositing de la vidéo, pendant que Roman a réalisé l’animation en elle-même.",
         "date": "octobre 2024",
         "endroit":  "Personnel",
         "objectif": "Créer une ambiance de couleurs et un fond véhiculant les émotions de la scène",
