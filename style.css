@@ -519,29 +519,29 @@ header ul {
 }
 
 #projet #content .card::before {
-    content: ""; 
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: inherit; 
+    background-image: inherit;
     background-size: inherit;
     background-repeat: inherit;
     background-position: inherit;
-    filter: brightness(1); 
-    transition: filter 0.3s ease; 
-    z-index: 1; 
+    filter: brightness(1);
+    transition: filter 0.3s ease;
+    z-index: 1;
 }
 
 #projet #content .card:hover::before {
-    filter: brightness(0.4); 
+    filter: brightness(0.4);
 }
 
 #projet #content .card p,
 #projet #content .card h2 {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
     color: white;
     text-align: center;
 }
@@ -583,7 +583,7 @@ header ul {
     font-size: 32px;
 }
 
-#projet #bas_de_page{
+#projet #bas_de_page {
     width: 100vw;
     margin-top: -300px;
     margin-bottom: -150px;
@@ -591,7 +591,7 @@ header ul {
 
 /*-----------------slugpage-----------------------*/
 
-#slugpage_one {
+#slugpage {
     background-color: rgba(254, 240, 225, 1);
     display: flex;
     flex-direction: column;
@@ -601,19 +601,21 @@ header ul {
     margin: 0;
 }
 
-#slugpage_one #entete {
+#slugpage #entete {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
 }
-#entete #background-entete{
+
+#entete #background-entete {
     position: absolute;
     width: 100%;
     z-index: -1;
 }
-#entete #return{
+
+#entete #return {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -622,7 +624,7 @@ header ul {
 
 }
 
-#entete #pres{
+#entete #pres {
     max-width: 450px;
     min-width: 250px;
     min-height: 150px;
@@ -634,16 +636,17 @@ header ul {
     flex-direction: column;
 }
 
-#entete #pres #complement{
+#entete #pres #complement {
     width: 100%;
     height: 20%;
     font-family: 'amiko';
     display: flex;
-    flex-direction:row;
-    justify-content:space-between;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#entete #pres #title{
+#entete #pres #title {
+    margin-bottom: 0;
     width: 100%;
     height: 80%;
     font-family: "botak";
@@ -651,15 +654,66 @@ header ul {
     display: flex;
     align-items: end;
     text-align: justify;
+    font-weight: 200;
 }
 
-#slugpage_one #content{
+#slugpage #content {
     width: 100vw;
     height: fit-content;
     display: flex;
     justify-content: center;
 }
 
-#slugpage_one iframe{
+#slugpage iframe {
     margin: 10%;
+}
+
+#slugpage #content img {
+    margin: 10%;
+    width: 50%;
+}
+
+#slugpage #explication{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    align-self: flex-end;
+    top: 85vh;
+    right: 10vw;
+}
+
+
+#slugpage #explication article {
+    font-family: "botak";
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+#slugpage #explication article span{
+    font-family: 'amiko';
+}
+
+#slugpage #detail {
+    margin-left: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#slugpage #detail div{
+    width: 45%;
+    margin-right: 50px;
+}
+ 
+#slugpage #detail h2 {
+    font-family: "botak";
+    font-size: 48pt;
+
+}
+
+#slugpage #detail p{ 
+    font-family: 'amiko';
+    font-size: 16pt;
 }

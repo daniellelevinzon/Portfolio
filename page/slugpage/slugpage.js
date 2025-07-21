@@ -19,6 +19,7 @@ document.getElementById("entete").style.height = `${document.getElementById("bac
 document.title = projet.name
 window.addEventListener('resize', () => {
     document.getElementById("entete").style.height = `${document.getElementById("background-entete").offsetHeight}px`
+    document.getElementById("explication").style.top = `${document.getElementById("background-entete").offsetHeight}px}`
 })
 document.getElementById("title").innerHTML = projet.name
 
@@ -31,24 +32,53 @@ endroit.innerHTML = projet.endroit
 complement.appendChild(endroit)
 complement.appendChild(date)
 
-let contenu = document.getElementById("content")
+let explain = document.querySelectorAll("#explication article span")
+explain[0].innerHTML = projet.objectif
+explain[1].innerHTML = projet.delais
 
-if(isExternalLink(projet.content_presentation)){
-    let iframe = document.createElement("iframe");
-    iframe.width = "1000px";
-    iframe.height = "600px"
-    iframe.src = projet.content_presentation;
-    iframe.title = "YouTube video player";
-    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-    iframe.referrerPolicy = "strict-origin-when-cross-origin";
-    iframe.allowFullscreen = true;
-    contenu.appendChild(iframe);
-}else{
-    img = document.createElement("img")
-    img.height = "600px"
-    img.width = "1000px"
-    img.src = `../../${projet.content_presentation}`
-    contenu.appendChild(img);
+let contenu = document.getElementById("content")
+if (Array.isArray(projet.content_presentation)) {
+    projet.content_presentation.forEach(element => {
+        contenu.style.width = "60%"
+        let Content_width = (contenu.offsetWidth - (50 * projet.content_presentation.length)) / projet.content_presentation.length
+        let iframe = document.createElement("iframe");
+        iframe.width = `${Content_width}px`;
+        iframe.height = `${Content_width}px`
+        iframe.src = element;
+        iframe.title = "YouTube video player";
+        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+        iframe.referrerPolicy = "strict-origin-when-cross-origin";
+        iframe.allowFullscreen = true;
+        contenu.appendChild(iframe);
+    });
+
+} else {
+
+    if (isExternalLink(projet.content_presentation)) {
+        let iframe = document.createElement("iframe");
+        iframe.width = "1000px";
+        iframe.height = "600px"
+        iframe.src = projet.content_presentation;
+        iframe.title = "YouTube video player";
+        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+        iframe.referrerPolicy = "strict-origin-when-cross-origin";
+        iframe.allowFullscreen = true;
+        contenu.appendChild(iframe);
+    } else {
+        img = document.createElement("img")
+        img.src = `../../${projet.content_presentation}`
+        contenu.appendChild(img);
+    }
 }
 
+let context = document.createElement("p")
+context.innerHTML = projet.context
+document.getElementById("context").appendChild(context)
+let demarche = document.createElement("p")
+demarche.innerHTML = projet.demarche
+document.getElementById("Demarche").appendChild(demarche)
+
+projet.logiciel.forEach(logiciel=>{
+    
+})
 
