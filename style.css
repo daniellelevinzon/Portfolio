@@ -332,6 +332,7 @@ header ul {
     flex-direction: column;
     width: 20%;
     height: 100%;
+    padding-right: 20px;
 }
 
 #about_me #content #capacity #fleche #study {
@@ -648,11 +649,11 @@ header ul {
 #entete #pres #title {
     margin-bottom: 0;
     width: 100%;
-    height: 80%;
+    height: 60%;
     font-family: "botak";
     font-size: 56pt;
     display: flex;
-    align-items: end;
+    align-items: start;
     text-align: justify;
     font-weight: 200;
 }
