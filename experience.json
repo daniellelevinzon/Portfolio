@@ -1,6 +1,6 @@
 [
     {
-        "name": "Boîte à Meuh",
+        "name": "La Boîte à Meuh",
         "date": "Janvier 2022",
         "endroit": "MMI1",
         "objectif": "Réaliser une identité et un teaser pour le festival en lien avec ses valeurs",
@@ -24,7 +24,7 @@
         "content_presentation": "https://www.youtube.com/embed/0664BsfRXt8?si=y6_-TTYoNIenHO4Y",
         "context": "Durant mon alternance dans une agence de création et d’accompagnement de formations digitales, mon équipe a voulu créer un module e-learning sur Elucidat pour fêter Halloween. L’objectif était de créer un jeu point and click sur la plateforme pour promouvoir les compétences d’écriture et de création graphique de l'équipe.Le module final met en scène Laure et le personnage principal qui sont à la recherche de son partenaire Franck ayant disparu le jour d’un rencard important. Le personnage principal doit donc le chercher dans sa maison, en résolvant différentes énigmes.",
         "logiciel": ["image/logo_logiciel/adobe_illustrator.svg", "image/logo_logiciel/after_effect.svg"],
-        "demarche": "J’ai réalisé la vidéo d’introduction, en créant les personnages et en les animant dans After Effects. J’ai également animé des fonds qui m’étaient fournis, et j’ai créé quelques illustrations.Pour ces illustrations, j’ai voulu imiter le style des fonds pré-fournis pour avoir une cohérence graphique. Le design des personnages est plutôt simple pour montrer que ce sont des personnes du quotidien. Le personnage principal, nous, n’est jamais représenté hors de la vue en point de vue pour une meilleure immersion.",
+        "demarche": "J’ai réalisé la vidéo d’introduction, en créant les personnages et en les animant dans After Effects.\n J’ai également animé des fonds qui m’étaient fournis, et j’ai créé quelques illustrations.Pour ces illustrations, j’ai voulu imiter le style des fonds pré-fournis pour avoir une cohérence graphique. Le design des personnages est plutôt simple pour montrer que ce sont des personnes du quotidien. Le personnage principal, nous, n’est jamais représenté hors de la vue en point de vue pour une meilleure immersion.",
         "competence": ["Conception de personnage", "Modélisation 3D", "Créer de l'interaction"],
         "complement": "image/src_slugPage/complement/complement_halloween.svg",
         "presentation": "image/src_slugPage/presentation/pres_halloween.svg",
@@ -50,7 +50,7 @@
         "theme": false
     },
     {
-        "name": "Projet AR ; la course poursuite",
+        "name": "Réalité augmentée: La course poursuite",
         "date": "octobre 2023",
         "endroit": "MMI3",
         "objectif": "Réaliser une œuvre en réalité augmentée pour une exposition",
@@ -67,7 +67,7 @@
         "theme": true
     },
     {
-        "name": "Dernierarret",
+        "name": "Dernier Arrêt",
         "context": "Animation 2D en collaboration avec Roman KUZBINSKI. J’ai réalisé le fond, le colour script et une partie du compositing de la vidéo, pendant que Roman a réalisé l’animation en elle-même.",
         "date": "octobre 2024",
         "endroit":  "Personnel",
@@ -84,7 +84,7 @@
         "theme": false
     },
     {
-        "name": "Mondays",
+        "name": "Mondays Challenge",
         "date": "2024",
         "endroit": "Personnel",
         "objectif": "Créer une animation sur le thème et les couleurs d’un prompt donné",
@@ -100,7 +100,7 @@
         "theme": false
     },
     {
-        "name": "Tshirt",
+        "name": "Design de T-shirt",
         "date": "juillet 2024",
         "endroit": "Personnel",
         "objectif": "Créer un design pour imprimer sur un T-shirt reprenant l’univers Yami Kawaii",
@@ -117,7 +117,7 @@
         "theme": false
     },
     {
-        "name": "Icones pour  la Société Général",
+        "name": "Icônes pour  la Société Général",
         "date": "juillet 2024",
         "endroit": "XPERTEAM-EASY",
         "objectif": "Créer des icônes en suivant une charte préexistante",
@@ -134,7 +134,7 @@
 
     },
     {
-        "name": "Malakoff",
+        "name": "Animation pour Malakoff Humanis",
         "date": "mai 2024",
         "endroit": "XPERTEAM-EASY",
         "objectif": "Faire des animations pour pouvoir s’identifier à un personnage",
@@ -150,7 +150,7 @@
         "theme":false
     },
     {
-        "name": "Gutenberg",
+        "name": "Refonte de Gutenberg",
         "date": "mars 2023",
         "endroit": "MMI2",
         "objectif": "Rendre au goût du jour le site de Gutenberg Annecy",
@@ -167,7 +167,7 @@
         "theme":true
     },
     {
-        "name": "DA Fruitz",
+        "name": "Direction Artistique du site web de Fruitz",
         "date": "mars 2024",
         "endroit": "MMI3",
         "objectif": "Créer une direction artistique mettant en valeur les fonctionnalités de l’application",
@@ -185,7 +185,7 @@
 
     },
     {
-        "name": "Pub",
+        "name": "Publicité pour mobiteach",
         "date": "avril 2024",
         "endroit": "XPERTEAM-EASY",
         "objectif": "Réaliser une identité et un teaser pour le festival en lien avec ses valeurs",
@@ -202,7 +202,7 @@
         "theme":false
     },
     {
-        "name": "Stage chez Danim",
+        "name": "Kakemono pour Danim",
         "date": "mai-juillet 2023",
         "endroit": "MMI2",
         "objectif": "Réaliser des supports de communication engageants destinés aux agents immobiliers",
@@ -219,7 +219,7 @@
         "theme":true
     },
     {
-        "name": "RS Mobi",
+        "name": "Communication résaux sociaux de Mobiteach",
         "date": "2024",
         "endroit": "XPERTEAM-EASY",
         "objectif": "Réaliser des visuels faciles à lire dans la charte de Mobiteach",
@@ -236,7 +236,7 @@
         "theme":false
     },
     {
-        "name": "Conception pédagogique",
+        "name": "la Conception pédagogique",
         "date": "mai 2024",
         "endroit": "XPERTEAM-EASY",
         "objectif": "Réaliser une animation décalée montrant l’expertise de XPERTEAM-EASY",
@@ -270,7 +270,7 @@
         "theme":true
     },
     {
-        "name": "Lonejyc",
+        "name": "Overlay de stream Lonejyc",
         "date": "Fevrier 2024",
         "endroit": "MMI3",
         "objectif": "Créer une interface de streaming montrant l’identité du streamer",
@@ -287,7 +287,7 @@
         "theme": true
     },
     {
-        "name": "Stop motion",
+        "name": "Stop motion pour le festival d'annecy",
         "date": "Fevrier 2024",
         "endroit": "MMI3",
         "objectif": "Réaliser une identité et un teaser pour le festival en lien avec ses valeurs",

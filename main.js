@@ -26,3 +26,10 @@ document.addEventListener("mousemove", e => {
     document.getElementById("items").style.marginLeft = `${PosBackgroundX * 7}px`
     document.getElementById("items").style.marginTop = `${PosBackgroundY * 7 + 50}px`
 })
+
+Array.from(document.getElementsByClassName("item")).forEach(element => {
+    element.addEventListener("click", ()=>{
+        window.location = "page/travaux/travaux.html"
+    })
+    
+});
