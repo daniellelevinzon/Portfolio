@@ -1,4 +1,6 @@
 const projet = JSON.parse(localStorage.getItem("projet"));
+
+console.log(window.innerWidth)
 function isExternalLink(url) {
     return url.startsWith('http://') || url.startsWith('https://');
 }
@@ -14,6 +16,8 @@ if (projet.theme) {
         element.style.color = 'white'
     });
 }
+
+
 
 document.getElementById("background-entete").src = `../../${projet.presentation}`
 
