@@ -3,6 +3,7 @@ function isExternalLink(url) {
     return url.startsWith('http://') || url.startsWith('https://');
 }
 
+document.getElementById("content").style.marginTop = document.getElementById("background-entete").offsetHeight
 
 if (projet === null) {
     window.location = "../travaux/travaux.html"
