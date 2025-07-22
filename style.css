@@ -1,5 +1,5 @@
-:root{
-    --primary-color:#202246
+:root {
+    --primary-color: #202246
 }
 
 @font-face {
@@ -199,6 +199,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    color: var(--primary-color);
 }
 
 header ul {
@@ -504,10 +505,21 @@ header ul {
 
 #projet #content ul li {
     padding: 10px 20px;
-    font-size: 24px;
+    font-size: 16px;
     border: solid 5px rgba(32, 34, 70, 1);
     border-radius: 40px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+
+}
+
+#projet #content ul :hover {
+    transition: all 0.3s;
+    background-color: #202246;
+    color: white;
 }
 
 #projet #content ul .selected {
