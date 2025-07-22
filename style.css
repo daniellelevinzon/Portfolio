@@ -1,3 +1,7 @@
+:root{
+    --primary-color:#202246
+}
+
 @font-face {
     font-family: "botak";
     src: url('font/Om_Botak.ttf');
@@ -136,7 +140,7 @@ footer #option_nav nav h4 {
 /*____________utiliser sur la plupart des pages__________________*/
 
 #homePage h1 {
-    color: #202246;
+    color: var(--primary-color);
     font-family: "botak";
     font-size: 40px;
     font-style: normal;
@@ -165,7 +169,7 @@ footer #option_nav nav h4 {
 }
 
 #homePage aside p {
-    color: #202246;
+    color: var(--primary-color);
     font-family: "Amiko";
     font-size: 24px;
     font-style: normal;
@@ -286,6 +290,7 @@ header ul {
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    color: var(--primary-color);
 }
 
 #about_me #content {
@@ -314,14 +319,12 @@ header ul {
 }
 
 #about_me #content #explain h1 {
-    color: rgba(32, 34, 70, 1);
     font-family: "botak";
     font-size: 40px;
     margin-top: 0;
 }
 
 #about_me #content #explain p {
-    color: rgba(32, 34, 70, 1);
     font-family: "Amiko";
     font-size: 16px;
     width: 70%;
@@ -329,7 +332,6 @@ header ul {
 }
 
 #about_me #content #explain p span {
-    color: rgba(32, 34, 70, 1);
     font-family: "botak";
     font-size: 16px;
 }
@@ -365,7 +367,6 @@ header ul {
 }
 
 #about_me #content #capacity #context p {
-    color: rgba(32, 34, 70, 1);
     font-family: "Amiko";
     font-size: 16px;
     line-height: 2;
@@ -383,6 +384,7 @@ header ul {
 
 
 #contact {
+    color: var(--primary-color);
     width: 100vw;
     margin: 0;
     padding: 0;
@@ -465,6 +467,7 @@ header ul {
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    color: var(--primary-color);
 }
 
 #projet #transi {
@@ -608,6 +611,7 @@ header ul {
     overflow-x: hidden;
     padding: 0;
     margin: 0;
+    color: var(--primary-color);
 }
 
 #slugpage #entete {
