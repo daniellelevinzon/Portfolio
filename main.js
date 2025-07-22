@@ -33,3 +33,7 @@ Array.from(document.getElementsByClassName("item")).forEach(element => {
     })
     
 });
+
+document.getElementById("head").addEventListener('click',()=>{
+    window.location = "page/presentation/about_me.html"
+})
