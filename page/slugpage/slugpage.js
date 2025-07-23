@@ -5,7 +5,8 @@ function isExternalLink(url) {
     return url.startsWith('http://') || url.startsWith('https://');
 }
 
-document.getElementById("content").style.marginTop = document.getElementById("background-entete").offsetHeight
+document.getElementById("entete").style.height = `${document.getElementById("background-entete").offsetHeight}px`
+document.getElementById("explication").style.top = `${document.getElementById("background-entete").offsetHeight}px}`
 
 if (projet === null) {
     window.location = "../travaux/travaux.html"
@@ -85,20 +86,20 @@ let demarche = document.createElement("p")
 demarche.innerHTML = projet.demarche
 document.getElementById("Demarche").appendChild(demarche)
 
-projet.logiciel.forEach(logiciel=>{
+projet.logiciel.forEach(logiciel => {
     let image = document.createElement("img")
     image.src = `../../${logiciel}`
     document.getElementById("image").appendChild(image)
 
 })
 
-projet.competence.forEach(element =>{
+projet.competence.forEach(element => {
     let liste = document.createElement("li")
     liste.innerHTML = element
     document.querySelector("#Competence ul").appendChild(liste)
 })
 
-if(projet.complement){
+if (projet.complement) {
     let image = document.createElement("img")
     image.src = `../../${projet.complement}`
     image.id = "complement"
