@@ -52,7 +52,7 @@ if (Array.isArray(projet.content_presentation)) {
         let iframe = document.createElement("iframe");
         iframe.width = `${Content_width}px`;
         iframe.height = `${Content_width}px`
-        iframe.style.marginTop =`${document.getElementById("background-entete").offsetHeight}px`
+        iframe.style.marginTop =`10%`
         iframe.src = element;
         iframe.title = "YouTube video player";
         iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
@@ -67,7 +67,7 @@ if (Array.isArray(projet.content_presentation)) {
         let iframe = document.createElement("iframe");
         iframe.width = "1000px";
         iframe.height = "600px"
-        iframe.style.marginTop = `${document.getElementById("background-entete").offsetHeight}px`
+        iframe.style.marginTop = `10%`
         iframe.src = projet.content_presentation;
         iframe.title = "YouTube video player";
         iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
