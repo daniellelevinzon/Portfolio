@@ -13,6 +13,65 @@
     font-style: normal;
 }
 
+
+#content_menu {
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(238, 111, 125, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#content_menu #close {
+    z-index: 2;
+    margin: 10%;
+    width: 50px;
+    height: 50px;
+    align-self: flex-end;
+    background-image: url("image/other/close.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#content_menu #close img {
+    height: 100%;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+#content_menu ul {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    align-items: start;
+    color: white;
+    font-family: botak;
+    font-size: 32pt;
+    padding: 0;
+    padding-left: 60px;
+}
+
+#content_menu p {
+    width: 80%;
+    font-size: 10pt;
+    font-family: amiko;
+    align-self: center;
+    height: 20%;
+    color: white;
+}
+
 footer {
     background-image: url("image/other/footer.svg");
     height: 500px;
@@ -65,7 +124,6 @@ footer #gototop {
 
 footer #resaux {
     display: flex;
-    justify-content: center;
     gap: 20px
 }
 
@@ -349,6 +407,10 @@ header ul {
     margin-top: 40px;
 }
 
+#about_me #content #chibi {
+    display: none;
+}
+
 #about_me #content #capacity #fleche #language {
     margin-top: 130px;
 }
@@ -378,6 +440,252 @@ header ul {
     width: 60%;
     display: flex;
     justify-content: space-around;
+}
+
+.phone {
+    display: none;
+}
+
+@media (max-width : 800px) {
+
+    #contact #content article img {
+        width: 80vw;
+    }
+
+    #contact #content #contacter #liaison p span {
+        font-size: 16pt !important;
+    }
+
+    #contact #content #contacter #liaison {
+        padding: 10px !important;
+    }
+
+    #contact #content #contacter #liaison p {
+        font-size: 24pt !important;
+        width: 100%;
+    }
+
+    #contact #content #contacter p {
+        font-size: 14pt !important;
+        width: 100% !important;
+    }
+
+    #contact #content #contacter h2 {
+        font-size: 32pt !important;
+        width: 100% !important;
+    }
+
+
+    #contact #content #contacter {
+        width: 90% !important;
+    }
+
+    #contact #content {
+        flex-direction: column !important;
+    }
+
+    #projet #content .card {
+        width: 90% !important;
+    }
+
+    #projet #content #cards {
+        gap: 10px !important;
+    }
+
+    #projet #content ul li {
+        padding: 0;
+    }
+
+    #projet #content h1 {
+        font-size: 36px !important;
+    }
+
+    header {
+        margin-top: 10px;
+    }
+
+    #homePage {
+        height: 100vh;
+        background-position: 50%;
+        overflow: hidden;
+        margin: 0;
+        position: relative;
+    }
+
+    #homePage .item {
+        height: 80px;
+        width: 80px;
+        margin: 0;
+    }
+
+    #homePage h1 {
+        font-size: 32pt;
+    }
+
+    #homePage aside p {
+        font-size: 20px;
+        width: 80%;
+        padding-right: 20px;
+    }
+
+    #homePage #explain {
+        width: 100%;
+    }
+
+    #homePage #explain p {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: 12pt;
+    }
+
+    #homePage .item {
+        height: fit-content;
+    }
+
+    #homePage aside {
+        right: auto;
+        bottom: auto;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        padding-left: 40px;
+    }
+
+    #homePage #head {
+        height: 24%;
+        width: 100%;
+        right: 0;
+    }
+
+
+    #homePage #items {
+        margin-top: 60%;
+        height: 30%;
+        width: fit-content;
+    }
+
+    #homePage #explain img {
+        display: none;
+    }
+
+    #homePage .item img {
+        height: 80px;
+        width: 80px;
+        margin: 0;
+    }
+
+    #about_me #content {
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    #about_me #content #explain {
+        width: 100%;
+    }
+
+    #about_me #content #explain p {
+        width: 100%;
+    }
+
+    #about_me {
+        background-image: none;
+    }
+
+    #about_me #content #chibi {
+        display: block;
+    }
+
+    #about_me #content #capacity #fleche {
+        display: none;
+    }
+
+    #about_me #content #capacity #context #icon {
+        gap: 10px;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .phone {
+        display: flex;
+    }
+
+    footer {
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        background-image: url("image/other/footer_mobile.png");
+        align-items: center;
+    }
+
+    footer #option_nav {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    footer #logo {
+        margin-top: 10%;
+        flex-direction: row;
+        width: 100%;
+        justify-self: center;
+    }
+
+    footer #logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    footer h3 {
+        font-size: 24pt;
+    }
+
+    footer #credit {
+        display: none;
+    }
+
+    footer #option_nav {
+        width: 80%;
+    }
+
+    footer #option_nav nav {
+        width: 100%;
+    }
+
+    footer #Mention {
+        display: none;
+    }
+
+    footer #option_nav nav h4 {
+        margin-bottom: 20px 0;
+    }
+
+    footer nav ul li {
+        margin: 20px 0;
+    }
+
+    footer nav ul li a {
+        font-size: 16pt;
+        margin: 20px 0;
+    }
+
+    #gototop {
+        display: none;
+    }
+
+    footer #resaux {
+        width: 40%;
+    }
+
+    footer #option_nav nav #resaux {
+        margin-top: 50px;
+    }
+
+    footer #option_nav nav p {
+        margin-top: 50px;
+    }
+
 }
 
 
@@ -501,6 +809,8 @@ header ul {
     padding: 0 10%;
     font-family: "Amiko";
 
+    flex-wrap: wrap;
+
 }
 
 #projet #content ul li {
@@ -530,7 +840,7 @@ header ul {
 
 #projet #content .card {
     position: relative;
-    height: 300px;
+    height: 250px;
     width: 500px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -764,4 +1074,74 @@ header ul {
     width: 100vw;
     margin-left: -20%;
     margin-top: 10%;
+    margin-bottom: -15%;
+}
+
+.open {
+    width: 10px;
+    height: 10px;
+    animation: growth 1s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes growth {
+    0% {
+        scale: 1;
+    }
+
+    100% {
+        scale: 200;
+    }
+}
+
+.closer {
+    width: 10px;
+    height: 10px;
+    animation: del 1s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes del {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: -100%;
+    }
+}
+
+
+.apparition {
+    width: 10px;
+    height: 10px;
+    animation: spawn 0.5s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spawn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.disparition {
+    width: 10px;
+    height: 10px;
+    animation: dispawn 0.5s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dispawn {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
