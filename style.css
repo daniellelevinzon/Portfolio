@@ -444,9 +444,89 @@ header ul {
 
 .phone {
     display: none;
+
 }
 
 @media (max-width : 800px) {
+
+    #slugpage #detail #Demarche{
+        margin-bottom: 0 !important;
+    }
+
+    #slugpage #content img{
+        width: 100% !important;
+    }
+    #slugpage #detail #complement{
+        margin-left: -40px !important;
+        width: 110vw !important;
+        margin-bottom: -30% !important;
+    }
+
+    #slugpage #detail h2{
+        font-size: 32pt !important;
+    }
+
+    #slugpage #detail div .image{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px !important;
+    }
+
+    #slugpage #detail div{
+        width: 80vw !important;
+        margin-right: 0 !important;
+        flex-direction: column;
+    }
+
+    #slugpage #detail #context{
+        width: 90%;
+    }
+    #slugpage #detail{
+        width: 100%;
+        padding: 40px;
+        flex-direction: column !important;
+    }
+    #slugpage #context{
+        margin-top: 150px;
+    }
+    #slugpage #content {
+        margin-top: 20%;
+        width: 90vw !important;
+        height: 45% !important;
+    }
+
+    #slugpage #content iframe {
+        width: 90vw;
+        height: 50vw;
+        margin-top: 10%;
+        max-width: 90vw;
+    }
+
+    #slugpage #entete #return {
+        width: 25px;
+        height: 25px;
+        top: 15%;
+    }
+
+    #slugpage #explication {
+        padding: 40px;
+        margin-top: 200px;
+        position: static !important;
+    }
+
+    #slugpage #entete #pres h1 {
+        font-size: 24pt;
+        
+    }
+
+    #slugpage #entete #pres {
+        margin-left: 0;
+        align-self: center;
+        margin-top: 20%;
+        max-width: 90%;
+    }
 
     #contact #content article img {
         width: 80vw;
@@ -486,6 +566,7 @@ header ul {
 
     #projet #content .card {
         width: 90% !important;
+        height: 250px !important;
     }
 
     #projet #content #cards {
@@ -606,6 +687,10 @@ header ul {
 
     .pc {
         display: none;
+        margin: 0;
+        padding: 0;
+        height: 0;
+        width: 0;
     }
 
     .phone {
@@ -840,7 +925,7 @@ header ul {
 
 #projet #content .card {
     position: relative;
-    height: 250px;
+    height: 300px;
     width: 500px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1075,6 +1160,17 @@ header ul {
     margin-left: -20%;
     margin-top: 10%;
     margin-bottom: -15%;
+}
+
+#slugpage iframe {
+    width: 1000px;
+    height: 600px;
+    margin-top: 10%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
 }
 
 .open {
