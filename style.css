@@ -457,6 +457,7 @@ header ul {
 
     #slugpage #content img{
         width: 100% !important;
+        
     }
     #slugpage #detail #complement{
         margin-left: -40px !important;
@@ -495,7 +496,7 @@ header ul {
         margin-top: 150px;
     }
     #slugpage #content {
-        margin-top: 20%;
+        margin-top: 40%;
         width: 90vw !important;
         height: 45% !important;
     }

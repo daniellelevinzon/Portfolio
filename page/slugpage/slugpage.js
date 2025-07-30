@@ -66,7 +66,7 @@ if (Array.isArray(projet.content_presentation)) {
 if (isExternalLink(projet.content_presentation)) {
     let iframe = document.createElement("iframe");
     if (window.matchMedia("(max-width: 800px)").matches) {
-        // Mode téléphone
+        
         iframe.width = "90vw";
         iframe.height = "50vw";
         iframe.style.maxWidth = "100%";
