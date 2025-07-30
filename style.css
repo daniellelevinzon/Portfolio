@@ -457,6 +457,7 @@ header ul {
 
     #slugpage #content img{
         width: 100% !important;
+        margin-top: 0;
         
     }
     #slugpage #detail #complement{
