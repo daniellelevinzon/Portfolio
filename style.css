@@ -193,6 +193,11 @@ footer #option_nav nav h4 {
     font-weight: 300;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 
 
 /*____________utiliser sur la plupart des pages__________________*/
@@ -291,14 +296,7 @@ header ul {
     background-size: contain;
 }
 
-#homePage #head:hover {
-    background-image: url(image/other/persona_hovering.svg);
-    transition: all 0.5s ease;
-    bottom: -10px;
-    width: 40%;
-    height: 320px;
 
-}
 
 #homePage aside {
     position: absolute;
@@ -447,30 +445,44 @@ header ul {
 
 }
 
+@media (min-width : 800px) {
+    #homePage #head:hover {
+    background-image: url(image/other/persona_hovering.svg);
+    transition: all 0.5s ease;
+    bottom: -10px;
+    width: 40%;
+    height: 320px;
+
+}
+}
+
 @media (max-width : 800px) {
 
-
-
-    #slugpage #detail #Demarche{
+    header #logo{
+        height: 60px;
+        width: 60px;
+    }
+    #slugpage #detail #Demarche {
         margin-bottom: 0 !important;
     }
 
-    #slugpage #content img{
+    #slugpage #content img {
         width: 100% !important;
         margin-top: 0;
-        
+
     }
-    #slugpage #detail #complement{
+
+    #slugpage #detail #complement {
         margin-left: -40px !important;
         width: 110vw !important;
         margin-bottom: -30% !important;
     }
 
-    #slugpage #detail h2{
+    #slugpage #detail h2 {
         font-size: 24pt !important;
     }
 
-    #slugpage #detail div .image{
+    #slugpage #detail div .image {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -478,32 +490,35 @@ header ul {
         gap: 10px !important;
     }
 
-    #slugpage #detail div{
+    #slugpage #detail div {
         width: 80vw !important;
         margin-right: 0 !important;
         flex-direction: column;
     }
 
-    #slugpage #detail #context{
+    #slugpage #detail #context {
         width: 90%;
         margin-top: 200px;
     }
-    #slugpage #detail{
+
+    #slugpage #detail {
         width: 100%;
         padding: 40px;
         flex-direction: column !important;
     }
-    #slugpage #context{
+
+    #slugpage #context {
         margin-top: 150px;
     }
+
     #slugpage #content {
-        margin-top: 60%;
+        margin-top: 80%;
         width: 90vw !important;
         height: 45% !important;
     }
 
     #slugpage #content iframe {
-        width: 90vw;
+        width: 100%;
         height: 50vw;
         margin-top: 10%;
         max-width: 90vw;
@@ -517,19 +532,19 @@ header ul {
 
     #slugpage #explication {
         padding: 40px;
-        margin-top: 250px;
+        margin-top: 300px;
         position: static !important;
     }
 
     #slugpage #entete #pres h1 {
         font-size: 34pt;
-        
+        text-align:start ;
     }
 
     #slugpage #entete #pres {
         margin-left: 0;
         align-self: center;
-        margin-top: 20%;
+        margin-top: 25%;
         max-width: 90%;
     }
 
@@ -556,8 +571,8 @@ header ul {
     }
 
     #contact #content #contacter h2 {
-        font-size: 32pt !important;
-        width: 100% !important;
+        font-size: 30pt !important;
+        width: 95vw !important;
     }
 
 
@@ -571,11 +586,12 @@ header ul {
 
     #projet #content .card {
         width: 90% !important;
-        height: 250px !important;
+        height: 200px !important;
     }
 
     #projet #content #cards {
-        gap: 10px !important;
+        gap: 0 !important;
+        margin-top: 40px !important;
     }
 
     #projet #content ul li {
@@ -606,12 +622,13 @@ header ul {
 
     #homePage h1 {
         font-size: 32pt;
+        text-align: center;
     }
 
     #homePage aside p {
         font-size: 20px;
         width: 80%;
-        padding-right: 20px;
+        padding-left: 40px;
     }
 
     #homePage #explain {
@@ -619,10 +636,11 @@ header ul {
     }
 
     #homePage #explain p {
-        width: 100%;
+        width: 80%;
         padding: 0;
-        margin: 0;
+        margin: -10px;
         font-size: 12pt;
+        padding-left: 50px;
     }
 
     #homePage .item {
@@ -635,10 +653,16 @@ header ul {
         top: 10%;
         left: 0;
         width: 100%;
-        padding-left: 40px;
+        padding: 0 auto;
     }
 
     #homePage #head {
+        height: 24%;
+        width: 100%;
+        right: 0;
+    }
+
+    #homePage #head::hover {
         height: 24%;
         width: 100%;
         right: 0;
@@ -686,13 +710,17 @@ header ul {
         display: none;
     }
 
-    #about_me #content #capacity{
+    #about_me #content #capacity {
         width: auto;
     }
 
     #about_me #content #capacity #context #icon {
         gap: 10px;
-        
+
+    }
+
+    #about_me #content #capacity #context{
+        width: 100%;
     }
 
     .pc {

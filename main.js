@@ -40,7 +40,7 @@ menu_burger.addEventListener("click", () => {
     document.getElementById("content_menu").style.display = "flex"
     document.getElementById("content_menu").classList.add('apparition')
     document.getElementById('content_menu').style.zIndex = "10"
-  }, 1000);
+  }, 800);
 })
 
 close.addEventListener('click', () => {
