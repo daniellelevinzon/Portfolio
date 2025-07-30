@@ -19,6 +19,7 @@ function displayProjects(filter) {
 
         let text = document.createElement("p");
         text.innerHTML = projet.endroit;
+        text.style.fontFamily = "botak"
         card.appendChild(text);
 
         let titre = document.createElement("h2");
