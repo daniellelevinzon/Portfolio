@@ -498,13 +498,15 @@ header ul {
 
     #slugpage #detail #context {
         width: 90%;
-        margin-top: 200px;
+        margin-top: 50px;
     }
 
     #slugpage #detail {
         width: 100%;
         padding: 40px;
         flex-direction: column !important;
+        position: static;
+        margin-top: 200px;
     }
 
     #slugpage #context {
@@ -515,6 +517,7 @@ header ul {
         margin-top: 80%;
         width: 90vw !important;
         height: 45% !important;
+        position: static;
     }
 
     #slugpage #content iframe {
@@ -532,7 +535,7 @@ header ul {
 
     #slugpage #explication {
         padding: 40px;
-        margin-top: 350px;
+        margin-top: 250px;
         position: static !important;
     }
 
@@ -544,7 +547,7 @@ header ul {
     #slugpage #entete #pres {
         margin-left: 0;
         align-self: center;
-        margin-top: 25%;
+        margin-top: 30%;
         max-width: 90%;
     }
 

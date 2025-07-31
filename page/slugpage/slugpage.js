@@ -28,6 +28,20 @@ document.getElementById("background-entete").addEventListener('load', () => {
 
 document.getElementById("return").addEventListener('click', () => { window.location = "../travaux/travaux.html" })
 document.getElementById("entete").style.height = `${document.getElementById("background-entete").offsetHeight}px`
+// Ajoute ce code après la ligne 30
+function updateContentMarginMobile() {
+    if (window.matchMedia("(max-width: 800px)").matches) {
+        const pres = document.querySelector("#slugpage #entete #pres");
+        const content = document.querySelector("#slugpage #content");
+        if (pres && content) {
+            const presHeight = pres.offsetHeight + 40;
+            content.style.marginTop = presHeight + "px";
+        }
+    }
+}
+
+document.addEventListener("DOMContentLoaded", updateContentMarginMobile);
+window.addEventListener("resize", updateContentMarginMobile);
 document.title = projet.name
 window.addEventListener('resize', () => {
     document.getElementById("entete").style.height = `${document.getElementById("background-entete").offsetHeight}px`
