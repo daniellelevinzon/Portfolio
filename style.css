@@ -553,7 +553,7 @@ header ul {
     }
 
     #contact #content article img {
-        width: 80vw;
+        width: 200%;
     }
 
     #contact #content #contacter #liaison p span {
@@ -561,7 +561,7 @@ header ul {
     }
 
     #contact #content #contacter #liaison {
-        padding: 10px !important;
+        padding: 0 !important;
     }
 
     #contact #content #contacter #liaison p {
