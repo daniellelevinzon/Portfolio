@@ -468,7 +468,7 @@ header ul {
 
     #slugpage #content img {
         width: 100% !important;
-        margin-top: 0;
+        margin-top: 0 !important;
 
     }
 
@@ -532,7 +532,7 @@ header ul {
 
     #slugpage #explication {
         padding: 40px;
-        margin-top: 300px;
+        margin-top: 350px;
         position: static !important;
     }
 
@@ -586,7 +586,7 @@ header ul {
 
     #projet #content .card {
         width: 90% !important;
-        height: 200px !important;
+        height: 220px !important;
     }
 
     #projet #content #cards {
