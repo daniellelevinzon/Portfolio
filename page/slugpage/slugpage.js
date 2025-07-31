@@ -19,9 +19,12 @@ if (projet.theme) {
 
 
 document.getElementById("background-entete").src = `../../${projet.presentation}`
+document.getElementById("background-entete").addEventListener('load', () => {
+    document.getElementById("entete").style.height = `${document.getElementById("background-entete").offsetHeight}px`
+    document.getElementById("explication").style.top = `${document.getElementById("background-entete").offsetHeight}px`
 
-document.getElementById("entete").style.height = `${document.getElementById("background-entete").offsetHeight}px`
-document.getElementById("explication").style.top = `${document.getElementById("background-entete").offsetHeight}px}`
+});
+
 
 document.getElementById("return").addEventListener('click', () => { window.location = "../travaux/travaux.html" })
 document.getElementById("entete").style.height = `${document.getElementById("background-entete").offsetHeight}px`
