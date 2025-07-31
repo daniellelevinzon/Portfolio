@@ -873,6 +873,7 @@ header ul {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: ;
 }
 
 #contact #content #contacter #liaison p {
@@ -880,13 +881,13 @@ header ul {
     height: auto;
     color: rgba(238, 111, 125, 1);
     font-family: "botak";
-    font-size: 24pt;
+    font-size: 20pt;
 }
 
 #contact #content #contacter #liaison p span {
     width: auto;
     height: auto;
-    font-size: 32pt;
+    font-size: 28pt;
     color: rgba(32, 34, 70, 1);
 }
 
