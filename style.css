@@ -865,6 +865,7 @@ header ul {
 }
 
 #contact #content #contacter #liaison {
+    min-width: 300px;
     padding: 100px;
     border-radius: 34px;
     background-color: #7ec7b7;
