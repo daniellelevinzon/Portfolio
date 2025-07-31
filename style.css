@@ -548,6 +548,10 @@ header ul {
         max-width: 90%;
     }
 
+    #contact{
+        width: 100vw;
+    }
+
     #contact #content article img {
         width: 80vw;
     }
@@ -873,7 +877,6 @@ header ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: ;
 }
 
 #contact #content #contacter #liaison p {
