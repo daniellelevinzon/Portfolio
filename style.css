@@ -445,7 +445,14 @@ header ul {
 
 }
 
-@media (min-width : 800px) {
+  #slugpage #detail div .image{
+    display: flex;
+    gap: 30px;
+    width: 35vw;
+    flex-wrap: wrap;
+  }
+
+@media (min-width : 1400px) {
     #homePage #head:hover {
     background-image: url(image/other/persona_hovering.svg);
     transition: all 0.5s ease;
@@ -456,11 +463,15 @@ header ul {
 }
 }
 
-@media (max-width : 800px) {
+@media (max-width : 1400px) {
 
     header #logo{
         height: 60px;
         width: 60px;
+    }
+
+    #slugpage ul{
+        padding: 0;
     }
     #slugpage #detail #Demarche {
         margin-bottom: 0 !important;
@@ -473,7 +484,7 @@ header ul {
     }
 
     #slugpage #detail #complement {
-        margin-left: -40px !important;
+        margin-left: -15% !important;
         width: 110vw !important;
         margin-bottom: -30% !important;
     }
@@ -486,8 +497,11 @@ header ul {
         width: 100%;
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-        gap: 10px !important;
+        flex-wrap: wrap;
+        gap: 20px !important;
+    }
+    #slugpage #detail div .image img{
+        height: 100px;
     }
 
     #slugpage #detail div {
@@ -578,6 +592,7 @@ header ul {
     }
 
     #contact #content #contacter h2 {
+        max-width: 310px;
         font-size: 30pt !important;
         width: 95vw !important;
     }
@@ -677,7 +692,7 @@ header ul {
 
 
     #homePage #items {
-        margin-top: 60%;
+        margin-top: 30vh;
         height: 30%;
         width: fit-content;
     }
