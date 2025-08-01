@@ -22,7 +22,7 @@
         "endroit": "Personnel",
         "objectif": "Créer une animation sur le thème et les couleurs d’un prompt donné",
         "delais": "1 semaine",
-        "content_presentation": ["https://youtube.com/shorts/gjf2baFT2Uc?si=VT1DV4oeEhZyFsmz","https://www.youtube.com/shorts/sqeTiGOo8ec"],
+        "content_presentation": ["https://youtube.com/embed/gjf2baFT2Uc?si=VT1DV4oeEhZyFsmz","https://www.youtube.com/embed/sqeTiGOo8ec"],
         "context": "Le Mondays Challenge est un défi d’animation où chaque lundi, un prompt est donné pour le lundi suivant.J’ai donc fait quelques uns des prompts donnés pour pouvoir expérimenter et essayer de nouvelles choses en motion design.",
         "logiciel": ["image/logo_logiciel/adobe_illustrator.svg","image/logo_logiciel/adobe_illustrator.svg","image/logo_logiciel/Animate.svg"],
         "demarche": "Je commence par chercher des idées en rapport avec le prompt en faisant des croquis. Ensuite, je choisis celle qui me plaît le plus et je la reproduis sur Illustrator.En fonction des techniques que je choisis, j’anime sur After Effects et/ou Animate.",

@@ -231,6 +231,8 @@ body {
 
 }
 
+
+
 #homePage aside p {
     color: var(--primary-color);
     font-family: "Amiko";
@@ -445,34 +447,35 @@ header ul {
 
 }
 
-  #slugpage #detail div .image{
+#slugpage #detail div .image {
     display: flex;
     gap: 30px;
     width: 35vw;
     flex-wrap: wrap;
-  }
+}
 
 @media (min-width : 1400px) {
     #homePage #head:hover {
-    background-image: url(image/other/persona_hovering.svg);
-    transition: all 0.5s ease;
-    bottom: -10px;
-    width: 40%;
-    height: 320px;
+        background-image: url(image/other/persona_hovering.svg);
+        transition: all 0.5s ease;
+        bottom: -10px;
+        width: 40%;
+        height: 320px;
 
-}
+    }
 }
 
 @media (max-width : 1400px) {
 
-    header #logo{
+    header #logo {
         height: 60px;
         width: 60px;
     }
 
-    #slugpage ul{
+    #slugpage ul {
         padding: 0;
     }
+
     #slugpage #detail #Demarche {
         margin-bottom: 0 !important;
     }
@@ -500,7 +503,8 @@ header ul {
         flex-wrap: wrap;
         gap: 20px !important;
     }
-    #slugpage #detail div .image img{
+
+    #slugpage #detail div .image img {
         height: 100px;
     }
 
@@ -555,7 +559,7 @@ header ul {
 
     #slugpage #entete #pres h1 {
         font-size: 34pt;
-        text-align:start ;
+        text-align: start;
     }
 
     #slugpage #entete #pres {
@@ -565,7 +569,7 @@ header ul {
         max-width: 90%;
     }
 
-    #contact{
+    #contact {
         width: 100vw;
     }
 
@@ -741,7 +745,7 @@ header ul {
 
     }
 
-    #about_me #content #capacity #context{
+    #about_me #content #capacity #context {
         width: 100%;
     }
 
@@ -1080,6 +1084,10 @@ header ul {
     padding: 0;
     margin: 0;
     color: var(--primary-color);
+}
+
+#slugpage #entete #return {
+    cursor: pointer;
 }
 
 #slugpage #entete {
