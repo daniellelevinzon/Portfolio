@@ -1,0 +1,1312 @@
+:root {
+    --primary-color: #202246
+}
+
+@font-face {
+    font-family: "botak";
+    src: url('font/Om_Botak.ttf');
+}
+
+.amiko-semibold {
+    font-family: "Amiko", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+#content_menu {
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(238, 111, 125, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#content_menu #close {
+    z-index: 2;
+    margin: 10%;
+    width: 50px;
+    height: 50px;
+    align-self: flex-end;
+    background-image: url("image/other/close.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#content_menu #close img {
+    height: 100%;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+#content_menu ul {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    align-items: start;
+    color: white;
+    font-family: botak;
+    font-size: 32pt;
+    padding: 0;
+    padding-left: 60px;
+}
+
+#content_menu p {
+    width: 80%;
+    font-size: 10pt;
+    font-family: amiko;
+    align-self: center;
+    height: 20%;
+    color: white;
+}
+
+footer {
+    background-image: url("image/other/footer.svg");
+    height: 500px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    color: white;
+}
+
+footer h3 {
+    font-size: 32pt;
+    font-family: "botak";
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+footer p {
+    font-family: "Amiko";
+}
+
+footer #textuel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+footer #credit {
+    align-self: flex-end;
+}
+
+footer .Mention {
+    align-self: flex-end;
+    justify-self: end;
+    margin: 0;
+
+}
+
+footer #gototop {
+    justify-self: end;
+    align-self: flex-end;
+    margin-top: 50px;
+}
+
+footer #resaux {
+    display: flex;
+    gap: 20px
+}
+
+footer #resaux img {
+    height: 50px;
+}
+
+footer #Mention {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: space-between;
+    text-align: end;
+    margin-top: 50px;
+}
+
+footer #logo {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+}
+
+footer #logo img {
+    height: 150px;
+    margin-right: 20px;
+}
+
+footer #option_nav {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer #option_nav h4 {
+    margin-bottom: 10px;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    height: 55%;
+    padding: 0;
+    font-family: "Amiko";
+
+}
+
+footer #option_nav nav {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 85%;
+}
+
+footer #option_nav nav h4 {
+    font-size: 16pt;
+    font-family: "botak";
+    font-weight: 300;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+
+/*____________utiliser sur la plupart des pages__________________*/
+
+#homePage h1 {
+    color: var(--primary-color);
+    font-family: "botak";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#homePage #explain {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+#homePage #explain img {
+    margin-left: -200px;
+
+}
+
+#homePage #explain p {
+    font-size: 16pt;
+    color: rgba(229, 58, 94, 1);
+    margin-left: 50px;
+
+}
+
+
+
+#homePage aside p {
+    color: var(--primary-color);
+    font-family: "Amiko";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#homePage {
+    background-image: url("image/other/background_homepage.svg");
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: 5% 5%;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-size: cover;
+}
+
+header {
+    height: 100px;
+    margin-top: 50px;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+header ul {
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 45px;
+    font-family: "botak";
+}
+
+#homePage #items {
+    margin-top: 5%;
+    justify-self: center;
+    height: 40vh;
+    width: 70vw;
+    transition: all 0.5s ease-in;
+    display: flex;
+    justify-content: space-between;
+}
+
+#homePage #head {
+    background-image: url(image/other/persona-illust.svg);
+    position: absolute;
+    bottom: 0%;
+    right: 40%;
+    width: 40%;
+    height: 300px;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease;
+    background-size: contain;
+}
+
+
+
+#homePage aside {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    width: 30%;
+}
+
+#homePage .item:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+
+#homePage .item {
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    transition: all 0.5s ease-out;
+}
+
+#homePage .item img {
+    transition: all 0.5s ease;
+}
+
+#homePage #pinceau {
+    align-self: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#homePage #barrette {
+    align-self: self-end;
+}
+
+/*_______________________page about me_______________*/
+
+#about_me {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(254, 240, 225, 1);
+    background-image: url(image/other/chibi.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    color: var(--primary-color);
+}
+
+#about_me #content {
+
+
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#about_me #content #explain {
+    margin-top: 10vh;
+    width: 30vw;
+    height: 100%;
+}
+
+#about_me #content #capacity {
+    margin-top: 5vh;
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#about_me #content #explain h1 {
+    font-family: "botak";
+    font-size: 40px;
+    margin-top: 0;
+}
+
+#about_me #content #explain p {
+    font-family: "Amiko";
+    font-size: 16px;
+    width: 70%;
+
+}
+
+#about_me #content #explain p span {
+    font-family: "botak";
+    font-size: 16px;
+}
+
+#about_me #content #capacity #fleche {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    padding-right: 20px;
+}
+
+#about_me #content #capacity #fleche #study {
+    margin-top: 40px;
+}
+
+#about_me #content #chibi {
+    display: none;
+}
+
+#about_me #content #capacity #fleche #language {
+    margin-top: 130px;
+}
+
+#about_me #content #capacity #fleche #comp {
+    margin-top: 140px;
+}
+
+#about_me #content #capacity #context {
+    width: 80%;
+    height: 100%;
+}
+
+#about_me #content #capacity #context h3 {
+    font-family: "botak";
+    font-size: 32px;
+}
+
+#about_me #content #capacity #context p {
+    font-family: "Amiko";
+    font-size: 16px;
+    line-height: 2;
+}
+
+#about_me #content #capacity #context #icon {
+    height: 10%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.phone {
+    display: none;
+
+}
+
+#slugpage #detail div .image {
+    display: flex;
+    gap: 30px;
+    width: 35vw;
+    flex-wrap: wrap;
+}
+
+@media (min-width : 1400px) {
+    #homePage #head:hover {
+        background-image: url(image/other/persona_hovering.svg);
+        transition: all 0.5s ease;
+        bottom: -10px;
+        width: 40%;
+        height: 320px;
+
+    }
+}
+
+@media (max-width : 1400px) {
+
+    header #logo {
+        height: 60px;
+        width: 60px;
+    }
+
+    #slugpage ul {
+        padding: 0;
+    }
+
+    #slugpage #detail #Demarche {
+        margin-bottom: 0 !important;
+    }
+
+    #slugpage #content img {
+        width: 100% !important;
+        margin-top: 0 !important;
+
+    }
+
+    #slugpage #detail #complement {
+        margin-left: -15% !important;
+        width: 110vw !important;
+        margin-bottom: -30% !important;
+    }
+
+    #slugpage #detail h2 {
+        font-size: 24pt !important;
+    }
+
+    #slugpage #detail div .image {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px !important;
+    }
+
+    #slugpage #detail div .image img {
+        height: 100px;
+    }
+
+    #slugpage #detail div {
+        width: 80vw !important;
+        margin-right: 0 !important;
+        flex-direction: column;
+    }
+
+    #slugpage #detail #context {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    #slugpage #detail {
+        width: 100%;
+        padding: 40px;
+        flex-direction: column !important;
+        position: static;
+        margin-top: 200px;
+    }
+
+    #slugpage #context {
+        margin-top: 150px;
+    }
+
+    #slugpage #content {
+        margin-top: 80%;
+        width: 90vw !important;
+        height: 45% !important;
+        position: static;
+    }
+
+    #slugpage #content iframe {
+        width: 100%;
+        height: 50vw;
+        margin-top: 10%;
+        max-width: 90vw;
+    }
+
+    #slugpage #entete #return {
+        width: 25px;
+        height: 25px;
+        top: 15%;
+    }
+
+    #slugpage #explication {
+        padding: 40px;
+        margin-top: 250px;
+        position: static !important;
+    }
+
+    #slugpage #entete #pres h1 {
+        font-size: 34pt;
+        text-align: start;
+    }
+
+    #slugpage #entete #pres {
+        margin-left: 0;
+        align-self: center;
+        margin-top: 30%;
+        max-width: 90%;
+    }
+
+    #contact {
+        width: 100vw;
+    }
+
+    #contact #content article img {
+        width: 250%;
+    }
+
+    #contact #content #contacter #liaison p span {
+        font-size: 16pt !important;
+    }
+
+    #contact #content #contacter #liaison {
+        padding: 0 !important;
+    }
+
+    #contact #content #contacter #liaison p {
+        font-size: 24pt !important;
+        width: 100%;
+    }
+
+    #contact #content #contacter p {
+        font-size: 14pt !important;
+        width: 100% !important;
+    }
+
+    #contact #content #contacter h2 {
+        max-width: 310px;
+        font-size: 30pt !important;
+        width: 95vw !important;
+    }
+
+
+    #contact #content #contacter {
+        width: 90% !important;
+    }
+
+    #contact #content {
+        flex-direction: column !important;
+    }
+
+    #projet #content .card {
+        width: 90% !important;
+        height: 220px !important;
+    }
+
+    #projet #content #cards {
+        gap: 0 !important;
+        margin-top: 40px !important;
+    }
+
+    #projet #content ul li {
+        padding: 0;
+    }
+
+    #projet #content h1 {
+        font-size: 36px !important;
+    }
+
+    header {
+        margin-top: 10px;
+    }
+
+    #homePage {
+        height: 100vh;
+        background-position: 50%;
+        overflow: hidden;
+        margin: 0;
+        position: relative;
+    }
+
+    #homePage .item {
+        height: 80px;
+        width: 80px;
+        margin: 0;
+    }
+
+    #homePage h1 {
+        font-size: 32pt;
+        text-align: center;
+    }
+
+    #homePage aside p {
+        font-size: 20px;
+        width: 80%;
+        padding-left: 40px;
+    }
+
+    #homePage #explain {
+        width: 100%;
+    }
+
+    #homePage #explain p {
+        width: 80%;
+        padding: 0;
+        margin: -10px;
+        font-size: 12pt;
+        padding-left: 50px;
+    }
+
+    #homePage .item {
+        height: fit-content;
+    }
+
+    #homePage aside {
+        right: auto;
+        bottom: auto;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        padding: 0 auto;
+    }
+
+    #homePage #head {
+        height: 24%;
+        width: 100%;
+        right: 0;
+    }
+
+    #homePage #head::hover {
+        height: 24%;
+        width: 100%;
+        right: 0;
+    }
+
+
+    #homePage #items {
+        margin-top: 30vh;
+        height: 30%;
+        width: fit-content;
+    }
+
+    #homePage #explain img {
+        display: none;
+    }
+
+    #homePage .item img {
+        height: 80px;
+        width: 80px;
+        margin: 0;
+    }
+
+    #about_me #content {
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    #about_me #content #explain {
+        width: 100%;
+    }
+
+    #about_me #content #explain p {
+        width: 100%;
+    }
+
+    #about_me {
+        background-image: none;
+    }
+
+    #about_me #content #chibi {
+        display: block;
+    }
+
+    #about_me #content #capacity #fleche {
+        display: none;
+    }
+
+    #about_me #content #capacity {
+        width: auto;
+    }
+
+    #about_me #content #capacity #context #icon {
+        gap: 10px;
+
+    }
+
+    #about_me #content #capacity #context {
+        width: 100%;
+    }
+
+    .pc {
+        display: none;
+        margin: 0;
+        padding: 0;
+        height: 0;
+        width: 0;
+    }
+
+    .phone {
+        display: flex;
+    }
+
+    footer {
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        background-image: url("image/other/footer_mobile.png");
+        align-items: center;
+    }
+
+    footer #option_nav {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    footer #logo {
+        margin-top: 10%;
+        flex-direction: row;
+        width: 100%;
+        justify-self: center;
+    }
+
+    footer #logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    footer h3 {
+        font-size: 24pt;
+    }
+
+    footer #credit {
+        display: none;
+    }
+
+    footer #option_nav {
+        width: 80%;
+    }
+
+    footer #option_nav nav {
+        width: 100%;
+    }
+
+    footer #Mention {
+        display: none;
+    }
+
+    footer #option_nav nav h4 {
+        margin-bottom: 20px 0;
+    }
+
+    footer nav ul li {
+        margin: 20px 0;
+    }
+
+    footer nav ul li a {
+        font-size: 16pt;
+        margin: 20px 0;
+    }
+
+    #gototop {
+        display: none;
+    }
+
+    footer #resaux {
+        width: 40%;
+    }
+
+    footer #option_nav nav #resaux {
+        margin-top: 50px;
+    }
+
+    footer #option_nav nav p {
+        margin-top: 50px;
+    }
+
+}
+
+
+/*______________ page contact___________________*/
+
+
+#contact {
+    color: var(--primary-color);
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(254, 240, 225, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#contact #content {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+#contact #content #contacter {
+    width: 40%;
+    height: 80%;
+}
+
+#contact #content article {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+#contact #content #contacter h2 {
+    font-family: "botak";
+    font-size: 40pt;
+    font-weight: 500;
+    width: 750px;
+}
+
+#contact #content #contacter p {
+    font-family: "Amiko";
+    font-size: 16pt;
+    font-weight: 500;
+    width: 750px;
+}
+
+#contact #content #contacter #liaison {
+    min-width: 300px;
+    padding: 100px;
+    border-radius: 34px;
+    background-color: #7ec7b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contact #content #contacter #liaison p {
+    width: auto;
+    height: auto;
+    color: rgba(238, 111, 125, 1);
+    font-family: "botak";
+    font-size: 20pt;
+}
+
+#contact #content #contacter #liaison p span {
+    width: auto;
+    height: auto;
+    font-size: 28pt;
+    color: rgba(32, 34, 70, 1);
+}
+
+
+
+/*-----------page de projet------------*/
+
+#projet {
+    background-color: rgba(248, 194, 42, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    color: var(--primary-color);
+}
+
+#projet #transi {
+    margin-top: 50px;
+    width: 100vw;
+    margin-bottom: 0;
+}
+
+#projet #content {
+    width: 100vw;
+    background-color: rgba(254, 240, 225, 1);
+    margin-top: -1px;
+    padding-bottom: 400px;
+}
+
+#projet #content h1 {
+    padding: 0 10%;
+    text-align: end;
+    font-family: "botak";
+    font-weight: 500;
+    font-size: 64px;
+}
+
+#projet #content ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    justify-content: end;
+    padding: 0 10%;
+    font-family: "Amiko";
+
+    flex-wrap: wrap;
+
+}
+
+#projet #content ul li {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: solid 5px rgba(32, 34, 70, 1);
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+
+}
+
+#projet #content ul :hover {
+    transition: all 0.3s;
+    background-color: #202246;
+    color: white;
+}
+
+#projet #content ul .selected {
+    background-color: #202246;
+    color: white;
+    transition: all 0.3s;
+}
+
+#projet #content .card {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#projet #content .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: inherit;
+    background-repeat: inherit;
+    background-position: inherit;
+    filter: brightness(1);
+    transition: filter 0.3s ease;
+    z-index: 1;
+}
+
+#projet #content .card:hover::before {
+    filter: brightness(0.4);
+}
+
+#projet #content .card p,
+#projet #content .card h2 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+
+#projet #content #cards {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+#projet #content .card:hover::before {
+    transition: all 0.3s;
+    filter: brightness(0.4);
+}
+
+#projet #content .card p {
+    font-family: "Amiko";
+    background-color: rgba(238, 111, 125, 1);
+    color: white;
+    font-size: 16px;
+    width: auto;
+    padding: 8px 16px;
+    width: fit-content;
+    display: none;
+    filter: brightness(1);
+    border-radius: 40px;
+    transition: all 0.2s;
+}
+
+#projet #content .card h2 {
+    transition: all 0.2s;
+    display: none;
+    color: white;
+    font-family: "Amiko";
+    font-size: 32px;
+}
+
+#projet #bas_de_page {
+    width: 100vw;
+    margin-top: -300px;
+    margin-bottom: -150px;
+}
+
+/*-----------------slugpage-----------------------*/
+
+#slugpage {
+    background-color: rgba(254, 240, 225, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    color: var(--primary-color);
+}
+
+#slugpage #entete #return {
+    cursor: pointer;
+}
+
+#slugpage #entete {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+#entete #background-entete {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+#entete #return {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 30%;
+    left: 10%;
+
+}
+
+#entete #pres {
+    max-width: 600px;
+    min-width: 250px;
+    min-height: 150px;
+    align-self: flex-start;
+    margin-bottom: 10%;
+    margin-left: 200px;
+    font-family: "amiko";
+    display: flex;
+    flex-direction: column;
+}
+
+#entete #pres #complement {
+    width: 100%;
+    height: 20%;
+    font-family: 'amiko';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#entete #pres #title {
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 60%;
+    font-family: "botak";
+    font-size: 56pt;
+    display: flex;
+    align-items: start;
+    text-align: justify;
+    font-weight: 200;
+}
+
+#slugpage #content {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+#slugpage iframe {
+    margin: 10%;
+}
+
+#slugpage #content img {
+    margin: 10%;
+    width: 50%;
+}
+
+#slugpage #explication {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    align-self: flex-end;
+    top: 45vw;
+    right: 10vw;
+}
+
+
+#slugpage #explication article {
+    font-family: "botak";
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+#slugpage #explication article span {
+    font-family: 'amiko';
+}
+
+#slugpage #detail {
+    margin-left: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#slugpage #detail div {
+    width: 45%;
+    margin-right: 50px;
+}
+
+#slugpage #detail h2 {
+    font-family: "botak";
+    font-size: 48pt;
+
+}
+
+#slugpage #detail p {
+    font-family: 'amiko';
+    font-size: 16pt;
+}
+
+#slugpage #detail #Demarche {
+    margin-bottom: 10vh;
+}
+
+#slugpage #image img {
+    margin-right: 20px;
+}
+
+#slugpage #Competence ul li {
+    list-style: none;
+    font-family: 'amiko';
+    font-size: 16pt;
+    margin: 40px 0px;
+}
+
+#slugpage #detail #complement {
+    width: 100vw;
+    margin-left: -20%;
+    margin-top: 10%;
+    margin-bottom: -15%;
+}
+
+#slugpage iframe {
+    width: 1000px;
+    height: 600px;
+    margin-top: 10%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.open {
+    width: 10px;
+    height: 10px;
+    animation: growth 1s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes growth {
+    0% {
+        scale: 1;
+    }
+
+    100% {
+        scale: 200;
+    }
+}
+
+.closer {
+    width: 10px;
+    height: 10px;
+    animation: del 1s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes del {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: -100%;
+    }
+}
+
+
+.apparition {
+    width: 10px;
+    height: 10px;
+    animation: spawn 0.5s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spawn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.disparition {
+    width: 10px;
+    height: 10px;
+    animation: dispawn 0.5s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dispawn {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
